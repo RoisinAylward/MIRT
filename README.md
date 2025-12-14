@@ -1,2 +1,0 @@
-# ScriptingGroupProjectWIP
-WIP
