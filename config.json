@@ -1,0 +1,7 @@
+{
+    "output_dir": "output",
+    "enabled_plugins": [
+        "plugins.hash_reputation",
+        "plugins.ip_reputation"
+    ]
+}
