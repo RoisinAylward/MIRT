@@ -20,6 +20,13 @@ def main():
 
     output_dir = Path(config.get("output_dir", "output")) #WIP
     run_id = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+    
+    run_meta = {
+        "run_id": run_id,
+        "host": (artefacts.get("run", {}) or {}).get("host"),
+        "timestamp_utc": (artefacts.get("run", {}) or {}).get("timestamp_utc")
+    }
+
     run_dir = output_dir / f"run_{run_id}" #NEED TO TEST IF OUTPUT FOLDER CAN BE CREATED FROM THIS PROGRAM
     run_dir.mkdir(parents=True, exist_ok=True) #creates parent folder if missing; doesn't raise FileExistsError if folder already exists 
 
@@ -31,6 +38,9 @@ def main():
         findings_file.write(json.dumps(findings, indent=2))
 
     # WIP
+    for finding in findings:
+        finding["run"] = run_meta
+    
     report_lines = [f"# MIRT Report ({run_id})", ""]
     for finding in findings:
         report_lines.append(f"- **{finding['severity'].upper()}**: {finding['title']} ({finding['plugin']})")

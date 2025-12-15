@@ -3,5 +3,11 @@
     "enabled_plugins": [
         "plugins.hash_reputation",
         "plugins.ip_reputation"
-    ]
+    ],
+    "threshold": {
+        "abuseipdb_score_high": 70,
+        "abuseipdb_score_medium_min": 30,
+        "abuseipdb_max_age_days": 90,
+        "abuseipdb_request_delay_seconds": 0.6
+    }
 }
