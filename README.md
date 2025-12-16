@@ -18,8 +18,29 @@ The project demonstrates automation, scripting, and security analysis techniques
 ##Setup Instructions
 
 ###Required Packages / Modules
+**Python**
+**JSON**
 **PowerShell**
 -Windows Powershell 
 -Ensure script execution policy allows running local scripts:
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+##Usage Instructions
+
+###How to run the PowerShell Collector
+```powershell
+.\collector.ps1 -OutputPath .\output\artifacts.json
+
+###How to run the Orchestrator (Collector, and the Python Analysis)
+.\orchestrator.ps1 -OutputDir .\output
+
+###How to run the Python Core directly:
+python mirt.py --config config.json --out output/
+
+###Outputs are saved in a timestamped folder like so:
+output/run_YYYYMMDD_HHMMSS/
+    ├── artifacts.json
+    ├── findings.json
+    └── report.csv
+
