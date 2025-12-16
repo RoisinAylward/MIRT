@@ -7,7 +7,8 @@
         {
             "remote_ip": "8.8.8.8",
             "process_id": 1234,
-            "process_name": "chrome.exe"
+            "process_name": "chrome.exe",
+            "sha256": "fed63cdaf13244ab8b3df55f97e35bb07ec67d5c44a00ccb0a6d29c90dfc5682"
         }
     ],
     "persistence": [],

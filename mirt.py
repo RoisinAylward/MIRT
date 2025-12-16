@@ -36,14 +36,27 @@ def main():
     findings_path = run_dir / "findings.json"
     with open(findings_path, "w", encoding="utf-8") as findings_file:
         findings_file.write(json.dumps(findings, indent=2))
-
-    # WIP
-    for finding in findings:
-        finding["run"] = run_meta
     
+    severity_order = {"high": 0, "medium": 1, "low": 2}
+
+    def severity_key(finding):
+        severity = (finding.get("severity") or "low").lower()
+        return severity_order.get(severity, 99) #99 puts nonanswers at end of report instead of crashing
+    
+    findings_sorted = sorted(findings, key=severity_key)
+
     report_lines = [f"# MIRT Report ({run_id})", ""]
-    for finding in findings:
-        report_lines.append(f"- **{finding['severity'].upper()}**: {finding['title']} ({finding['plugin']})")
+    current_severity = None
+    # WIP
+    for finding in findings_sorted:
+        severity = (finding.get("severity") or "low").lower()
+        if severity != current_severity:
+            report_lines.append(f"## {severity.upper()}")
+            report_lines.append("")
+            current_severity = severity
+
+    report_lines.append(f"- **{severity.upper()}**: {finding['title']} ({finding['plugin']})")
+    
     report_path = run_dir / "report.md"
     with open(report_path, "w", encoding="utf-8") as report_file:
         report_file.write("\n".join(report_lines))

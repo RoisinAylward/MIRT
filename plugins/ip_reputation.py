@@ -108,7 +108,7 @@ def run(artefacts, config):
         for conn in conns:
             evidence_conns.append({
                 "process_id": conn.get("process_id"),
-                "process_name": conn.get("process_name"),
+                "process_name": conn.get("process_name")
             })
 
         if score >= high_score: #if ip has reports of abusing activity
