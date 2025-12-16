@@ -3,7 +3,8 @@
     "enabled_plugins": [
         "plugins.encoded_powershell_hunt",
         "plugins.hash_reputation",
-        "plugins.ip_reputation"
+        "plugins.ip_reputation",
+        "plugins.persistence_analysis"
     ],
     "thresholds": {
         "abuseipdb_score_high": 70,

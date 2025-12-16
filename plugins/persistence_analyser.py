@@ -1,8 +1,15 @@
-def analyse(artifacts, config):
+# plugins/ip_reputation.py
+PLUGIN_META = {
+    "name": "persistence_analysis",
+    "version": "0.1",
+    "requires_env": [],
+}
+
+def analyse(artefacts, config):
     findings = [] #This creates a list to store any suspicious persistence findings.
 
     #This gets persistence-related items from the artifacts dictionary (default to empty list if missing)
-    persistence_items = artifacts.get("persistence", [])
+    persistence_items = artefacts.get("persistence", [])
    
     #This defines the paths that are considered suspicious because they are user-writable:
     suspicious_paths = [
@@ -58,3 +65,16 @@ def analyse(artifacts, config):
     return findings #This input returns all suspicious persistence findings.
 
 
+def run(artefacts, config):
+    hits = analyse(artefacts, config)
+    if not hits:
+        return []
+
+    #convrts raw hits into "finding" format
+    return [{
+        "plugin": PLUGIN_META["name"],
+        "severity": "medium",
+        "title": f"Suspicious persistence entries detected ({len(hits)})",
+        "evidence": {"items_preview": hits[:10], "count": len(hits)},
+        "recommendation": "Review each entry, validate file origin/signer, and remove/contain if unexpected."
+    }]
