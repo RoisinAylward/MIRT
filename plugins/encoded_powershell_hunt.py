@@ -1,23 +1,22 @@
-# plugins/encoded_powershell_hunt.py
-
+#plugins/encoded_powershell_hunt.py
 import re
 
 PLUGIN_META = {
     "name": "encoded_powershell_hunt",
     "version": "0.1",
-    "requires_env": []
+    "requires_env": [] #none
 }
 
-ENC_RE = re.compile(r"(?i)\-(?:encodedcommand|enc)\s+([A-Za-z0-9+/=]{10,})")
+ENC_RE = re.compile(r"(?i)\-(?:encodedcommand|enc)\s+([A-Za-z0-9+/=]{10,})")#case insensitive of either -encodedcommand or -enc in a command
 
-SUSPICIOUS_SWITCHES = [
+SUSPICIOUS_SWITCHES = [ #suggests malicious powershell usage by switches:
     "-nop", "-noprofile",
     "-w hidden", "-windowstyle hidden",
     "-noninteractive",
     "-executionpolicy bypass", "-ep bypass",
 ]
 
-SUSPICIOUS_KEYWORDS = [
+SUSPICIOUS_KEYWORDS = [ #suggests download/execution or embedded urls:
     "iex", "invoke-expression",
     "downloadstring", "webclient",
     "frombase64string",
@@ -28,14 +27,14 @@ SUSPICIOUS_KEYWORDS = [
 
 
 def run(artefacts, config):
-    events = artefacts.get("powershell_events", [])
+    events = artefacts.get("powershell_events", []) #events becomes empty list instead of error if key powershell_events doesnt exist
     if not events:
         return []
 
     hits = []
 
     for event in events:
-        msg = event.get("message") or ""
+        msg = event.get("message") or "" #empty string if message key missing instead of None being returned
         msg_lower = msg.lower()
 
         match = ENC_RE.search(msg)

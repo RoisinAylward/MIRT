@@ -1,4 +1,4 @@
-#CONNECT TO COLLECTOR.PS1**********
+#mirt.py
 import importlib
 import os
 import json
@@ -18,20 +18,20 @@ def load_plugins(plugin_paths):
 
 def severity_key(finding):
     severity_order = {"high": 0, "medium": 1, "low": 2}
-    severity = (finding.get("severity") or "low").lower()
-    return severity_order.get(severity, 99) #99 puts nonanswers at end of report instead of crashing
+    severity = (finding.get("severity") or "low").lower() #low is fallback if empty value in severity field
+    return severity_order.get(severity, 99)#99 puts nonanswers at end of report instead of crashing
   
 def main():
-    config_path = Path(os.environ.get("MIRT_CONFIG", "config.json"))
+    config_path = Path(os.environ.get("MIRT_CONFIG", "config.json")) #allows for user to set the config file as environmental veriable if fallback is undesired
     artefacts_path = Path(os.environ.get("MIRT_ARTEFACTS"))
-    run_dir = Path(os.environ.get("MIRT_RUN_DIR", "output"))
+    run_dir = Path(os.environ.get("MIRT_RUN_DIR", "output")) #allows for user to set the folder containing run outputs as environmental veriable if fallback is undesired
     
+    #parses json:
     config = load_json(config_path) 
     artefacts = load_json(artefacts_path)
 
-    #output_dir = Path(config.get("output_dir", "output")) #WIP
     run_dir.mkdir(parents=True, exist_ok=True) #creates parent folder if missing; doesn't raise FileExistsError if folder already exists 
-    run_id = (artefacts.get("run", {}) or {}).get("run_id")
+    run_id = (artefacts.get("run", {}) or {}).get("run_id")#if run field in artefacst is missing or is null value, run_id is null
     if not run_id:
         run_id = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
     
@@ -43,7 +43,7 @@ def main():
 
     findings = []
     for plugin in load_plugins(config.get("enabled_plugins", [])):
-        try:
+        try: #checks the plugins runs
             findings.extend(plugin.run(artefacts, config))
         except Exception as e:
             plugin_name = getattr(plugin, "PLUGIN_META", {}).get("name", getattr(plugin, "__name__", "unknown_plugin"))
@@ -61,11 +61,12 @@ def main():
     with open(findings_path, "w", encoding="utf-8") as findings_file:
         findings_file.write(json.dumps(findings, indent=2))
 
-    findings_sorted = sorted(findings, key=severity_key)
+    findings_sorted = sorted(findings, key=severity_key)#asccending order of numbers
 
     host = run_meta.get("host") or "UNKNOWN_HOST"
-    report_lines = [f"# MIRT Report ({run_id}) - {host}", ""]
+    report_lines = [f"# MIRT Report ({run_id}) - {host}", ""] # "" improves the .md's formtting
     
+    #groupes severity:
     current_severity = None
     for finding in findings_sorted:
         severity = (finding.get("severity") or "low").lower()
@@ -77,11 +78,12 @@ def main():
         plugin_name = finding.get("plugin") or "unknown_plugin"
         report_lines.append(f"- **{severity.upper()}**: {title} ({plugin_name})")
     
+    #writes to the report:
     report_path = run_dir / "report.md"
     with open(report_path, "w", encoding="utf-8") as report_file:
         report_file.write("\n".join(report_lines))
 
-    print(f"Created: {run_dir}")
+    print(f"Saved: {run_dir}")
 
 if __name__ == "__main__":
     main()

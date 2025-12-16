@@ -42,6 +42,7 @@ try {
         throw "Artefacts file was not created at $artefactsPath"
     }
 
+    #user can set environmental variable to set paths:
     $env:MIRT_RUN_DIR = (Resolve-Path $runDir).Path
     $env:MIRT_ARTEFACTS = (Resolve-Path $artefactsPath).Path
     $env:MIRT_CONFIG = (Resolve-Path ".\config.json").Path

@@ -1,5 +1,4 @@
-# plugins/hash_reputation.py
-
+#plugins/hash_reputation.py
 import os
 import time
 import re
@@ -8,12 +7,12 @@ import requests
 PLUGIN_META = {
     "name": "hash_reputation_virustotal",
     "version": "0.1",
-    "requires_env": ["VT_API_KEY"],
+    "requires_env": ["VT_API_KEY"]
 }
 
-VT_API_URL = "https://www.virustotal.com/api/v3/files/"
+VT_API_URL = "https://www.virustotal.com/api/v3/files/" #endpoint
 
-SHA256_RE = re.compile(r"^[A-Fa-f0-9]{64}$")
+SHA256_RE = re.compile(r"^[A-Fa-f0-9]{64}$")#64 characters of only numers or letters
 
 
 def is_sha256(hash_str):
@@ -23,7 +22,7 @@ def is_sha256(hash_str):
 def extract_hashes_with_context(artefacts):
     results = []
 
-    for connection in artefacts.get("connections", []):
+    for connection in artefacts.get("connections", []): #network activity
         conn_hash = connection.get("sha256")
         if is_sha256(conn_hash):
             results.append((conn_hash, {
@@ -34,7 +33,7 @@ def extract_hashes_with_context(artefacts):
                 "exe_path": connection.get("exe_path")
             }))
 
-    for persistence in artefacts.get("persistence", []):
+    for persistence in artefacts.get("persistence", []): #files being scheduled or run on startup
         persistence_hash = persistence.get("sha256")
         if is_sha256(persistence_hash):
             results.append((persistence_hash, {
@@ -52,7 +51,7 @@ def extract_hashes_with_context(artefacts):
 def run(artefacts, config):
     findings = []
 
-    API_KEY = os.environ.get("VT_API_KEY")
+    API_KEY = os.environ.get("VT_API_KEY") #environmental variable
     if not API_KEY:
         findings.append({
             "plugin": PLUGIN_META["name"],
@@ -80,7 +79,7 @@ def run(artefacts, config):
         })
         return findings
 
-    contexts_by_hash = {}
+    contexts_by_hash = {} #to query once per unique hash so less API calls
     for hash, context in hash_context_pairs:
         if hash not in contexts_by_hash:
             contexts_by_hash[hash] = []
@@ -88,7 +87,7 @@ def run(artefacts, config):
 
     headers = {"x-apikey": API_KEY, "Accept": "application/json"}
 
-    cache = {}
+    cache = {} #reusing response for same hash
 
     for hash, contexts in contexts_by_hash.items():
         if hash in cache:
@@ -108,7 +107,7 @@ def run(artefacts, config):
                 })
                 continue
 
-            if response.status_code == 404:
+            if response.status_code == 404: #VT has no record of the hash
                 findings.append({
                     "plugin": PLUGIN_META["name"],
                     "severity": "low",
@@ -118,7 +117,7 @@ def run(artefacts, config):
                 })
                 continue
 
-            if response.status_code != 200:
+            if response.status_code != 200:#unsucessful
                 findings.append({
                     "plugin": PLUGIN_META["name"],
                     "severity": "medium",
@@ -128,7 +127,7 @@ def run(artefacts, config):
                 })
                 continue
 
-            payload = response.json()
+            payload = response.json() #parsing response as json
             attributes = payload.get("data", {}).get("attributes", {})
             cache[hash] = attributes
 

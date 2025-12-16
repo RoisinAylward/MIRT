@@ -6,11 +6,11 @@ import requests
 
 PLUGIN_META = {
     "name": "ip_reputation_abuseipdb",
-    "version": "0.2",
-    "requires_env": ["ABUSEIPDB_API_KEY"],
+    "version": "0.2", #with error handeling now
+    "requires_env": ["ABUSEIPDB_API_KEY"]
 }
 
-ABUSEIPDB_URL = "https://api.abuseipdb.com/api/v2/check"
+ABUSEIPDB_URL = "https://api.abuseipdb.com/api/v2/check" #the endpoint
 
 
 def is_global_ip(ip_str):
@@ -38,7 +38,7 @@ def run(artefacts, config):
 
     API_KEY = os.environ.get("ABUSEIPDB_API_KEY")
     if not API_KEY:
-        findings.append({ #might change to raise RuntimeError instead
+        findings.append({ 
             "plugin": PLUGIN_META["name"],
             "severity": "low",
             "title": "AbuseIPDB API key missing",
@@ -49,7 +49,7 @@ def run(artefacts, config):
 
     thresholds = config.get("thresholds", {})
     high_score = int(thresholds.get("abuseipdb_score_high", 70))
-    medium_min = int(thresholds.get("abuseipdb_score_medium_min", 30)) #add low later?
+    medium_min = int(thresholds.get("abuseipdb_score_medium_min", 30))
     max_age_days = int(thresholds.get("abuseipdb_max_age_days", 90))
     request_delay = float(thresholds.get("abuseipdb_request_delay_seconds", 0.6))
 
@@ -98,7 +98,7 @@ def run(artefacts, config):
             data = payload.get("data", {})
             cache[ip] = data
 
-            time.sleep(request_delay) #program pauses for set amount of time before continuing
+            time.sleep(request_delay)#program pauses for set amount of time before continuing
 
         score = int(data.get("abuseConfidenceScore", 0))
         total_reports = int(data.get("totalReports", 0))
@@ -111,7 +111,7 @@ def run(artefacts, config):
                 "process_name": conn.get("process_name")
             })
 
-        if score >= high_score: #if ip has reports of abusing activity
+        if score >= high_score: #if ip has many reports of abusing activity
             findings.append({
                 "plugin": PLUGIN_META["name"],
                 "severity": "high",
@@ -129,7 +129,7 @@ def run(artefacts, config):
                 "recommendation": "Investigate owning process; validate binary hash; consider blocking the IP and hunting related IOCs."
             })
         
-        elif medium_min <= score < high_score:
+        elif medium_min <= score < high_score: #if ip has some reports of abusing activity
             findings.append({
                 "plugin": PLUGIN_META["name"],
                 "severity": "medium",
