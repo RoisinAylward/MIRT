@@ -35,14 +35,14 @@ ForEach-Object {
         $procName = $p.ProcessName
     }
 
-    $sha256 = $null
-    if ($exePath -and (Test-Path -LiteralPath $exePath)) {
-        try {
-            $sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $exePath).Hash
-        } catch {
-            $sha256 = $null
-        }
-    }
+    $targetHash = $null
+            if ($target -and (Test-Path -LiteralPath $target)) {
+                try {
+                    $targetHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $target).Hash
+                } catch {
+                    $targetHash = $null
+                }
+            }
 
     [PSCustomObject]@{
         local_ip = $_.LocalAddress
@@ -115,4 +115,5 @@ $artefacts = [PSCustomObject]@{
 $artefacts | ConvertTo-Json -Depth 6 | Out-File -Encoding utf8 $OutputPath
 
 Write-Host "[+] Collection complete. Output saved to $OutputPath"
+
 
