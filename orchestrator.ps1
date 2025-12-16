@@ -29,26 +29,38 @@ $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
 $runDir = Join-Path $OutputDir "run_$timestamp"
 New-Item -ItemType Directory -Path $runDir | Out-Null
 
+$artefactsPath = Join-Path $runDir "artefacts.json"
+
 try {
 #Runs Powershells collector to gather artifacts:
     Write-Host "[*] Running Powershell collector..."
-    .\collector.ps1 -OutputPath "$runDir\artifacts.json"
+    .\collector.ps1 -OutputPath "$runDir\artefacts.json"
     
 #In order to verify we created artifacts.json:
-    if (-not (Test-Path "$runDir\artifacts.json")) {
+    if (-not (Test-Path $artefactsPath)) {
     #This makes a terminating error that stops execution unless caught between the try/catch commands.
-        throw "Artifacts file was not created"
+        throw "Artefacts file was not created at $artefactsPath"
     }
+
+    $env:MIRT_RUN_DIR = (Resolve-Path $runDir).Path
+    $env:MIRT_ARTEFACTS = (Resolve-Path $artefactsPath).Path
+    $env:MIRT_CONFIG = (Resolve-Path ".\config.json").Path
 
 #This command runs the python analysis orchestrator with config.json:
     Write-Host "[*] Running Python analysis..."
-    python .\mirt.py --config .\config.json --out $runDir
+    python .\mirt.py
 
-    Write-Host "[+] Workflow complete. Results saved in $OutputDir"
+    if ($LASTEXITCODE -ne 0) {
+        throw "Python analysis failed (exit code $LASTEXITCODE)"
+    }
+
+    Write-Host "[+] Workflow complete. Results saved in $runDir"
+    exit 0
 }
 #To catch errors so we can print them earlier we input the comand:
 catch{ 
     Write-Error "[!] Workflow failed: $_"
+    exit 1
 }
 
 
