@@ -16,14 +16,13 @@ VT_API_URL = "https://www.virustotal.com/api/v3/files/"
 SHA256_RE = re.compile(r"^[A-Fa-f0-9]{64}$")
 
 
-def is_sha256(s):
-    return bool(s) and bool(SHA256_RE.match(str(s).strip()))
+def is_sha256(hash_str):
+    return bool(hash_str) and bool(SHA256_RE.match(str(hash_str).strip()))
 
 
 def extract_hashes_with_context(artefacts):
     results = []
 
-    # From network connections
     for connection in artefacts.get("connections", []):
         conn_hash = connection.get("sha256")
         if is_sha256(conn_hash):
@@ -35,7 +34,6 @@ def extract_hashes_with_context(artefacts):
                 "exe_path": connection.get("exe_path")
             }))
 
-    # From persistence entries
     for persistence in artefacts.get("persistence", []):
         persistence_hash = persistence.get("sha256")
         if is_sha256(persistence_hash):
@@ -82,7 +80,6 @@ def run(artefacts, config):
         })
         return findings
 
-    # Deduplicate hashes but keep all contexts
     contexts_by_hash = {}
     for hash, context in hash_context_pairs:
         if hash not in contexts_by_hash:

@@ -1,10 +1,11 @@
 {
     "output_dir": "output",
     "enabled_plugins": [
+        "plugins.encoded_powershell_hunt",
         "plugins.hash_reputation",
         "plugins.ip_reputation"
     ],
-    "threshold": {
+    "thresholds": {
         "abuseipdb_score_high": 70,
         "abuseipdb_score_medium_min": 30,
         "abuseipdb_max_age_days": 90,
