@@ -1,0 +1,239 @@
+[
+  {
+    "plugin": "hash_reputation_virustotal",
+    "severity": "low",
+    "title": "File hash checked (VT, no detections): BCD025F3CE6CEFEB950B2A02C01BECCFB0A6C8465841AD879E93421418E31B46",
+    "evidence": {
+      "sha256": "BCD025F3CE6CEFEB950B2A02C01BECCFB0A6C8465841AD879E93421418E31B46",
+      "vt_type_description": "Win32 EXE",
+      "meaningful_name": "OneDrive.exe",
+      "last_analysis_stats": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 72,
+        "harmless": 0,
+        "timeout": 0,
+        "confirmed-timeout": 0,
+        "failure": 0,
+        "type-unsupported": 4
+      },
+      "contexts": [
+        {
+          "source": "persistence",
+          "type": "RunKey",
+          "location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+          "name": "OneDrive",
+          "command": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background",
+          "target_path": "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe"
+        }
+      ]
+    },
+    "recommendation": "No detections reported, but continue triage using context (path, behaviour, provenance).",
+    "run": {
+      "run_id": "20251216_233941",
+      "host": "LAPTOP-7PS2L8R7",
+      "timestamp_utc": "2025-12-16T23:39:39.2139916Z"
+    }
+  },
+  {
+    "plugin": "hash_reputation_virustotal",
+    "severity": "low",
+    "title": "File hash checked (VT, no detections): E13373D0C77E14BD5EC8391A716F9585B89A912F7794391952FF0DDFDB14B71E",
+    "evidence": {
+      "sha256": "E13373D0C77E14BD5EC8391A716F9585B89A912F7794391952FF0DDFDB14B71E",
+      "vt_type_description": "Win32 EXE",
+      "meaningful_name": "EALauncher.exe",
+      "last_analysis_stats": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 72,
+        "harmless": 0,
+        "timeout": 0,
+        "confirmed-timeout": 0,
+        "failure": 0,
+        "type-unsupported": 4
+      },
+      "contexts": [
+        {
+          "source": "persistence",
+          "type": "RunKey",
+          "location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+          "name": "EADM",
+          "command": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silent",
+          "target_path": "C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe"
+        }
+      ]
+    },
+    "recommendation": "No detections reported, but continue triage using context (path, behaviour, provenance).",
+    "run": {
+      "run_id": "20251216_233941",
+      "host": "LAPTOP-7PS2L8R7",
+      "timestamp_utc": "2025-12-16T23:39:39.2139916Z"
+    }
+  },
+  {
+    "plugin": "hash_reputation_virustotal",
+    "severity": "low",
+    "title": "File hash checked (VT, no detections): B84BEC899D854B8F09FCFD4EB68FDB90CE97939989A75CC2794B11132404AFCA",
+    "evidence": {
+      "sha256": "B84BEC899D854B8F09FCFD4EB68FDB90CE97939989A75CC2794B11132404AFCA",
+      "vt_type_description": "Win32 EXE",
+      "meaningful_name": "EpicGamesLauncher.exe",
+      "last_analysis_stats": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 72,
+        "harmless": 0,
+        "timeout": 0,
+        "confirmed-timeout": 0,
+        "failure": 0,
+        "type-unsupported": 4
+      },
+      "contexts": [
+        {
+          "source": "persistence",
+          "type": "RunKey",
+          "location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+          "name": "EpicGamesLauncher",
+          "command": "\"C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot",
+          "target_path": "C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe"
+        }
+      ]
+    },
+    "recommendation": "No detections reported, but continue triage using context (path, behaviour, provenance).",
+    "run": {
+      "run_id": "20251216_233941",
+      "host": "LAPTOP-7PS2L8R7",
+      "timestamp_utc": "2025-12-16T23:39:39.2139916Z"
+    }
+  },
+  {
+    "plugin": "hash_reputation_virustotal",
+    "severity": "low",
+    "title": "File hash checked (VT, no detections): ADFCED81A73FB0F25F3654557C630AFB33C776BD668306BF9DB63C4554925292",
+    "evidence": {
+      "sha256": "ADFCED81A73FB0F25F3654557C630AFB33C776BD668306BF9DB63C4554925292",
+      "vt_type_description": "Win32 EXE",
+      "meaningful_name": "ProtonDrive.dll",
+      "last_analysis_stats": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 67,
+        "harmless": 0,
+        "timeout": 1,
+        "confirmed-timeout": 0,
+        "failure": 2,
+        "type-unsupported": 6
+      },
+      "contexts": [
+        {
+          "source": "persistence",
+          "type": "RunKey",
+          "location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+          "name": "Proton Drive",
+          "command": "\"C:\\Users\\35383\\AppData\\Local\\Programs\\Proton\\Drive\\ProtonDrive.exe\" -quiet",
+          "target_path": "C:\\Users\\35383\\AppData\\Local\\Programs\\Proton\\Drive\\ProtonDrive.exe"
+        }
+      ]
+    },
+    "recommendation": "No detections reported, but continue triage using context (path, behaviour, provenance).",
+    "run": {
+      "run_id": "20251216_233941",
+      "host": "LAPTOP-7PS2L8R7",
+      "timestamp_utc": "2025-12-16T23:39:39.2139916Z"
+    }
+  },
+  {
+    "plugin": "hash_reputation_virustotal",
+    "severity": "low",
+    "title": "File hash checked (VT, no detections): 353675DD45AB58936BBB1ED2582B1FEA3257C5029DB12711D1AE5EA6BFF21A3D",
+    "evidence": {
+      "sha256": "353675DD45AB58936BBB1ED2582B1FEA3257C5029DB12711D1AE5EA6BFF21A3D",
+      "vt_type_description": "Win32 EXE",
+      "meaningful_name": "msedge.exe",
+      "last_analysis_stats": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 71,
+        "harmless": 0,
+        "timeout": 0,
+        "confirmed-timeout": 0,
+        "failure": 1,
+        "type-unsupported": 4
+      },
+      "contexts": [
+        {
+          "source": "persistence",
+          "type": "RunKey",
+          "location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+          "name": "MicrosoftEdgeAutoLaunch_AA38DC575B580980CED8A900870D5AF9",
+          "command": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start",
+          "target_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+        }
+      ]
+    },
+    "recommendation": "No detections reported, but continue triage using context (path, behaviour, provenance).",
+    "run": {
+      "run_id": "20251216_233941",
+      "host": "LAPTOP-7PS2L8R7",
+      "timestamp_utc": "2025-12-16T23:39:39.2139916Z"
+    }
+  },
+  {
+    "plugin": "ip_reputation_abuseipdb",
+    "severity": "low",
+    "title": "AbuseIPDB API key missing",
+    "evidence": {
+      "required_env": "ABUSEIPDB_API_KEY"
+    },
+    "recommendation": "Set ABUSEIPDB_API_KEY as an environment variable and re-run.",
+    "run": {
+      "run_id": "20251216_233941",
+      "host": "LAPTOP-7PS2L8R7",
+      "timestamp_utc": "2025-12-16T23:39:39.2139916Z"
+    }
+  },
+  {
+    "plugin": "persistence_analysis",
+    "severity": "medium",
+    "title": "Suspicious persistence entries detected (2)",
+    "evidence": {
+      "items_preview": [
+        {
+          "category": "persistence",
+          "type": "RunKey",
+          "name": "Proton Drive",
+          "location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+          "command": "\"C:\\Users\\35383\\AppData\\Local\\Programs\\Proton\\Drive\\ProtonDrive.exe\" -quiet",
+          "target_path": "C:\\Users\\35383\\AppData\\Local\\Programs\\Proton\\Drive\\ProtonDrive.exe",
+          "sha256": "ADFCED81A73FB0F25F3654557C630AFB33C776BD668306BF9DB63C4554925292",
+          "severity": "medium",
+          "reasons": [
+            "Executable located in user-writable path: \\AppData\\"
+          ]
+        },
+        {
+          "category": "persistence",
+          "type": "RunKey",
+          "name": "Teams",
+          "location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+          "command": "\"C:\\Users\\35383\\AppData\\Local\\Microsoft\\WindowsApps\\MSTeams_8wekyb3d8bbwe\\ms-teams.exe\" msteams:system-initiated",
+          "target_path": "C:\\Users\\35383\\AppData\\Local\\Microsoft\\WindowsApps\\MSTeams_8wekyb3d8bbwe\\ms-teams.exe",
+          "sha256": null,
+          "severity": "medium",
+          "reasons": [
+            "Executable located in user-writable path: \\AppData\\",
+            "Executable hash missing or could not be calculated"
+          ]
+        }
+      ],
+      "count": 2
+    },
+    "recommendation": "Review each entry, validate file origin/signer, and remove/contain if unexpected.",
+    "run": {
+      "run_id": "20251216_233941",
+      "host": "LAPTOP-7PS2L8R7",
+      "timestamp_utc": "2025-12-16T23:39:39.2139916Z"
+    }
+  }
+]

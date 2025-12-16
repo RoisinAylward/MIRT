@@ -2,7 +2,7 @@
     "run":  {
                 "host":  "LAPTOP-7PS2L8R7",
                 "username":  "35383",
-                "timestamp_utc":  "2025-12-16T23:41:20.5949647Z"
+                "timestamp_utc":  "2025-12-16T23:39:39.2139916Z"
             },
     "connections":  [
                         {
@@ -67,6 +67,17 @@
                             "remote_port":  443,
                             "state":  "Established",
                             "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  62509,
+                            "remote_ip":  "2620:1ec:bdf::52",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  21084,
                             "process_name":  null,
                             "exe_path":  null,
                             "sha256":  null
@@ -260,6 +271,17 @@
                         },
                         {
                             "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  57864,
+                            "remote_ip":  "2620:1ec:8f8::10",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  35964,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
                             "local_port":  57770,
                             "remote_ip":  "2a06:98c1:3107::6812:2715",
                             "remote_port":  443,
@@ -413,6 +435,17 @@
                             "sha256":  null
                         },
                         {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  51345,
+                            "remote_ip":  "2620:1ec:8f8::10",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  35964,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
                             "local_ip":  "::1",
                             "local_port":  631,
                             "remote_ip":  "::1",
@@ -427,6 +460,28 @@
                             "local_ip":  "192.168.1.7",
                             "local_port":  64148,
                             "remote_ip":  "34.203.66.212",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  64147,
+                            "remote_ip":  "34.203.66.212",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  64146,
+                            "remote_ip":  "52.203.62.136",
                             "remote_port":  443,
                             "state":  "Established",
                             "process_id":  34124,
@@ -458,28 +513,6 @@
                         },
                         {
                             "local_ip":  "192.168.1.7",
-                            "local_port":  62704,
-                            "remote_ip":  "52.178.17.232",
-                            "remote_port":  443,
-                            "state":  "Established",
-                            "process_id":  26156,
-                            "process_name":  null,
-                            "exe_path":  null,
-                            "sha256":  null
-                        },
-                        {
-                            "local_ip":  "192.168.1.7",
-                            "local_port":  62681,
-                            "remote_ip":  "98.71.35.81",
-                            "remote_port":  443,
-                            "state":  "Established",
-                            "process_id":  5144,
-                            "process_name":  null,
-                            "exe_path":  null,
-                            "sha256":  null
-                        },
-                        {
-                            "local_ip":  "192.168.1.7",
                             "local_port":  62537,
                             "remote_ip":  "54.198.96.232",
                             "remote_port":  443,
@@ -493,6 +526,17 @@
                             "local_ip":  "192.168.1.7",
                             "local_port":  62535,
                             "remote_ip":  "98.88.156.33",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  62522,
+                            "remote_ip":  "3.162.140.99",
                             "remote_port":  443,
                             "state":  "Established",
                             "process_id":  34124,
@@ -1209,6 +1253,11 @@
                           "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
                       },
                       {
+                          "Id":  14948,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
                           "Id":  18292,
                           "ProcessName":  "firefox",
                           "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
@@ -1280,11 +1329,6 @@
                       },
                       {
                           "Id":  30012,
-                          "ProcessName":  "firefox",
-                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
-                      },
-                      {
-                          "Id":  30028,
                           "ProcessName":  "firefox",
                           "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
                       },
