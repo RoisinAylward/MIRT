@@ -1,5 +1,5 @@
 param(
-    [string]$OutputPath = ".\artifacts.json"
+    [string]$OutputPath = ".\artefacts.json"
 )
 
 #This shows errors but keeps collecting data.
@@ -117,4 +117,5 @@ $artefacts = [PSCustomObject]@{
 $artefacts | ConvertTo-Json -Depth 6 | Out-File -Encoding utf8 $OutputPath
 
 Write-Host "[+] Collection complete. Output saved to $OutputPath"
+
 
