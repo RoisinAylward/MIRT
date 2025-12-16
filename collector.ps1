@@ -2,8 +2,10 @@ param(
     [string]$OutputPath = ".\artifacts.json"
 )
 
+#This shows errors but keeps collecting data.
 $ErrorActionPreference = "Continue"
 
+#This displays text straight to console:
 Write-Host "[*] Starting basic triage collection..."
 
 $run = [PSCustomObject]@{
@@ -115,3 +117,4 @@ $artefacts = [PSCustomObject]@{
 $artefacts | ConvertTo-Json -Depth 6 | Out-File -Encoding utf8 $OutputPath
 
 Write-Host "[+] Collection complete. Output saved to $OutputPath"
+
