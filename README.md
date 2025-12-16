@@ -50,4 +50,23 @@ output/run_YYYYMMDD_HHMMSS/
 - `ip_reputation.py` → Enriches remote IPs using AbuseIPDB.
 - `persistence_check.py` → Flags suspicious Run key entries.
 
-###Snippet of Json File:
+###Snippet of Json File (config.json):
+{
+    "output_dir": "output",
+    "enabled_plugins": [
+        "plugins.encoded_powershell_hunt",
+        "plugins.hash_reputation",
+        "plugins.ip_reputation"
+    ],
+    "thresholds": {
+        "abuseipdb_score_high": 70,
+        "abuseipdb_score_medium_min": 30,
+        "abuseipdb_max_age_days": 90,
+        "abuseipdb_request_delay_seconds": 0.6,
+        
+        "vt_malicious_min": 1,
+        "vt_suspicious_min": 1,
+        "vt_request_delay_seconds": 0.6
+    }
+}
+
