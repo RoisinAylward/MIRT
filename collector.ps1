@@ -6,48 +6,54 @@ $ErrorActionPreference = "Continue"
 
 Write-Host "[*] Starting basic triage collection..."
 
-$systemInfo = @{
-    Hostname = $env:COMPUTERNAME
-    Username = $env:USERNAME
-    TimestampUTC = (Get-Date).ToUniversalTime().ToString("o")
+$run = [PSCustomObject]@{
+    host = $env:COMPUTERNAME
+    username = $env:USERNAME
+    timestamp_utc = (Get-Date).ToUniversalTime().ToString("o")
 }
 
-$processLookup = @{}
-Get-Process | ForEach-Object {
-    $processLookup[$_.Id] = @{
-    Name = $_.ProcessName
-    Path = $_.Path
- }
+$processes = Get-Process | Select-Object `
+    Id,
+    ProcessName,
+    Path
+
+$procIndex = @{}
+foreach ($p in $processes) {
+    $procIndex[$p.Id] = $p
 }
 
-$networkConnections = Get-NetTCPConnection -State Established | ForEach-Object {
-    $procInfo = $processLookup[$_.OwningProcess]
-    [PSCustomObject]@{
-    LocalAddress = $_.LocalAddress
-    LocalPort = $_.LocalPort
-    RemoteAddress = $_.RemoteAddress
-    RemotePort = $_.RemotePort
-    State = $_.State
-    OwningProcess = $_.OwningProcess
-    ProcessName = $procInfo.Name
-    ProcessPath = $procInfo.Path
+$connections = Get-NetTCPConnection -State Established |
+Where-Object { $_.RemoteAddress -and $_.RemoteAddress -ne "0.0.0.0" -and $_.RemoteAddress -ne "::" } |
+ForEach-Object {
+    $procId = $_.OwningProcess = $_.OwningProcess
+    $p = $procIndex[$procId]
+
+    $exePath = $null
+    $procName = $null
+    if ($p) {
+        $exePath = $p.Path
+        $procName = $p.ProcessName
     }
-}
 
-$processes = Get-Process | ForEach-Object {
-    $hash = $null
-    if ($_.Path -and (Test-Path $_.Path)) {
+    $sha256 = $null
+    if ($exePath -and (Test-Path -LiteralPath $exePath)) {
         try {
-            $hash = (Get-FileHash -Path $_.Path -Algorithm SHA256).Hash
+            $sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $exePath).Hash
         } catch {
-            $hash = $null
-        } 
+            $sha256 = $null
+        }
     }
+
     [PSCustomObject]@{
-    Id = $_.Id
-    ProcessName = $_.ProcessName
-    Path = $_.Path
-    SHA256 = $hash
+        local_ip = $_.LocalAddress
+        local_port = $_.LocalPort
+        remote_ip = $_.RemoteAddress
+        remote_port = $_.RemotePort
+        state = $_.State
+        process_id = $procId
+        process_name = $procName
+        exe_path = $exePath
+        sha256 = $sha256
     }
 }
 
@@ -56,32 +62,57 @@ $persistence = @()
 
 if (Test-Path $runKeyPath) {
     Get-ItemProperty $runKeyPath | ForEach-Object{
-    $_.PSObject.Properties |
-    Where-Object {$_.Name -notlike "PS*"} |
-    ForEach-Object {
-        $persistence += @{
-            Name = $_.Name
-            Command = $_.Value
+        $_.PSObject.Properties |
+        Where-Object {$_.Name -notlike "PS*"} |
+        ForEach-Object {
+            $cmd = [string]$_.Value
+
+            $target = $null
+            if ($cmd -match '^\s*"(.*?)"') { $target = $Matches[1] }
+            else { $target = ($cmd -split '\s+')[0] }
+
+            $targetHash = $null
+            if ($target -and (Test-Path -LiteralPath $target)) {
+                try {
+                    $targetHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $target).Hash
+                } catch {
+                    $targetHash = $null
+                }
+            }
+
+            $persistence += [PSCustomObject]@{
+                type = "RunKey"
+                location = $runKeyPath
+                name = $_.Name
+                command = $cmd
+                target_path = $target
+                sha256 = $targetHash
+            }
         }
     }
-} 
-
 }
 
-$powershellLogs = Get-WinEvent -LogName "Microsoft-Windows-Powershell/Operational" -MaxEvents 100
-Where-Object { $_.Message -match "EncodedCommand|DownloadString"} |
-Select-Object TimeCreated, Id, Message
-
-$artifacts = @{
-    System = $systemInfo
-    NetworkConnections = $networkConnections
-    Processes = $processes
-    Persistence = $persistence
-    SuspiciousPowershellEvents = $powershellLogs
+$powershell_events = @()
+try {
+    $powershell_events = Get-WinEvent -LogName "Microsoft-Windows-PowerShell/Operational" -MaxEvents 100 |
+    Where-Object { $_.Message -match "EncodedCommand|DownloadString" } |
+    Select-Object `
+        @{n="time_created";e={$_.TimeCreated.ToUniversalTime().ToString("o")}}, `
+        @{n="event_id";e={$_.Id}}, `
+        @{n="message";e={$_.Message}}
+} catch {
+    $powershell_events = @()
 }
 
-$artifacts | Convertto-Json -Depth 5 | Out-File -Encoding utf8 $OutputPath
+$artefacts = [PSCustomObject]@{
+    run = $run
+    connections = $connections
+    persistence = $persistence
+    powershell_events = $powershell_events
+    processes = $processes
+}
 
+$artefacts | ConvertTo-Json -Depth 6 | Out-File -Encoding utf8 $OutputPath
 
-Write-Host "[+] Collection.complete. Output saved to $OutputPath"
+Write-Host "[+] Collection complete. Output saved to $OutputPath"
 
