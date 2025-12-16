@@ -19,9 +19,25 @@ The project demonstrates automation, scripting, and security analysis techniques
 
 ###Required Packages / Modules
 **Python**
+-Python 3.9 or later.
+-Required Python packages (which is installed via pip):
+pip install -r requirements.txt. 
+-The python libraries used are:
+requests - HTTP requests to security APIS
+json - Parsing structured artifact data.
+datetime - Timestamp handling
+time - Rate limiting API requests
+csv - Report generation
+os/sys - Covers file handling, and execution.
+
+**API Keys**
+-VirusTotal API key
+-AbuseIPDB API key
+
 **JSON**
 **PowerShell**
--Windows Powershell 
+-Windows Powershell 5.1 or later.
+-Administrator privileges recommended.
 -Ensure script execution policy allows running local scripts:
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
@@ -70,3 +86,7 @@ output/run_YYYYMMDD_HHMMSS/
     }
 }
 
+##Limitations:
+-Some executables cannot be hashed (locked/protected files).
+-Only Run key persistence is checked (no scheduled tasks/services yet).
+-PowerShell event filtering limited to EncodedCommand/DowloadString.
