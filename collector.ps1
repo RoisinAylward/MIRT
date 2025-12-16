@@ -13,8 +13,8 @@ $systemInfo = @{
 }
 
 $processLookup = @{}
-Process | ForEach-Object {
-$processLookup[$_.Id] = @{
+Get-Process | ForEach-Object {
+    $processLookup[$_.Id] = @{
     Name = $_.ProcessName
     Path = $_.Path
  }
@@ -29,8 +29,8 @@ $networkConnections = Get-NetTCPConnection -State Established | ForEach-Object {
     RemotePort = $_.RemotePort
     State = $_.State
     OwningProcess = $_.OwningProcess
-    ProcessName = $procInfo_.Name
-    ProcessPath = $procInfo_.Path
+    ProcessName = $procInfo.Name
+    ProcessPath = $procInfo.Path
     }
 }
 
@@ -84,3 +84,4 @@ $artifacts | Convertto-Json -Depth 5 | Out-File -Encoding utf8 $OutputPath
 
 
 Write-Host "[+] Collection.complete. Output saved to $OutputPath"
+
