@@ -3,14 +3,14 @@
 ##Project Overview:
 
 This Project is a modular cybersecurity automation tool designed to perform basic incident response triage on a Windows system.
-The tool collects system, network, persistence, and PowerShell artifacts using PowerShell, and then performs automated analysis, and enrichment using Python.
+The tool collects system, network, persistence, and PowerShell artifacts using Powershell, and then performs automated analysis, and enrichment using Python.
 The project demonstrates automation, scripting, and security analysis techniques covered throughout the module.
 
 ##Contents:
 - `collector.ps1` -> This is a powershell script for collecting artifacts.
-- `orchestrator.ps1` -> Wrapper script that runs the collector, and the Python analysis in one workflow. 
+- `orchestrator.ps1` -> Is a Wrapper script that runs the collector, and the Python analysis in one workflow. 
 - `artifacts.json`-> This defines the collected artifacts.
-- `plugins/` -> Python plugins for analysis (for example, the encoded Powershell hunt, hash reputation).
+- `plugins/` -> Python plugins for analysis (for example: the encoded Powershell hunt, hash reputation).
 - `samples/` -> These are sample scripts, and outputs.
 - `mirt.py` -> The python orchestrator for plugin execution.
 - `config.json` -> Used for plugin configuration, and severity mapping.
@@ -89,4 +89,4 @@ output/run_YYYYMMDD_HHMMSS/
 ##Limitations:
 -Some executables cannot be hashed (locked/protected files).
 -Only Run key persistence is checked (no scheduled tasks/services yet).
--PowerShell event filtering limited to EncodedCommand/DowloadString.
+-Powershell event filtering limited to EncodedCommand/DowloadString.
