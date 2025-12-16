@@ -58,7 +58,7 @@ ForEach-Object {
         local_port = $_.LocalPort
         remote_ip = $_.RemoteAddress
         remote_port = $_.RemotePort
-        state = $_.State
+        state = $_.State.ToString()
         process_id = $procId
         process_name = $procName
         exe_path = $exePath

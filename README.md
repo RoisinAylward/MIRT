@@ -28,7 +28,6 @@ requests - HTTP requests to security APIS
 json - Parsing structured artifact data.
 datetime - Timestamp handling
 time - Rate limiting API requests
-csv - Report generation
 os/sys - Covers file handling, and execution.
 
 **API Keys**
@@ -58,13 +57,13 @@ python mirt.py --config config.json --out output/
 output/run_YYYYMMDD_HHMMSS/
     ├── artifacts.json
     ├── findings.json
-    └── report.csv
+    └── report.md
 
 ### 🔌 Plugins
-- `encoded_pshunt.py` → Detects suspicious PowerShell commands (EncodedCommand, DownloadString).
+- `encoded_powershell_hunt.py` → Detects suspicious PowerShell commands (EncodedCommand, DownloadString).
 - `hash_reputation.py` → Checks SHA256 hashes against VirusTotal.
 - `ip_reputation.py` → Enriches remote IPs using AbuseIPDB.
-- `persistence_check.py` → Flags suspicious Run key entries.
+- `persistence_analyser.py` → Flags suspicious Run key entries.
 
 ###Snippet of Json File (config.json):
 {
