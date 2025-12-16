@@ -1,4 +1,4 @@
-#Modular Indient Response Triage Tool
+#Plug-in Based Mini DFIR Framework Tool
 
 ##Project Overview:
 
@@ -6,15 +6,17 @@ This Project is a modular cybersecurity automation tool designed to perform basi
 The tool collects system, network, persistence, and PowerShell artifacts using Powershell, and then performs automated analysis, and enrichment using Python.
 The project demonstrates automation, scripting, and security analysis techniques covered throughout the module.
 
-##Contents:
+---
+
+##Project Contents:
 - `collector.ps1` -> This is a powershell script for collecting artifacts.
 - `orchestrator.ps1` -> Is a Wrapper script that runs the collector, and the Python analysis in one workflow. 
-- `artifacts.json`-> This defines the collected artifacts.
 - `plugins/` -> Python plugins for analysis (for example: the encoded Powershell hunt, hash reputation).
 - `samples/` -> These are sample scripts, and outputs.
 - `mirt.py` -> The python orchestrator for plugin execution.
 - `config.json` -> Used for plugin configuration, and severity mapping.
 - `requirements.txt` -> The python dependencies.
+> `artifacts.json` is generated at runtime and is not committed to the repository. (This defines the collected artifacts).
 
 ##Setup Instructions
 
