@@ -6,10 +6,20 @@ The tool collects system, network, persistence, and Powershell artifacts using P
 The project demonstrates automation, scripting, and security analysis techniques covered throughout the module.
 
 ##Contents:
-- `collector.ps1`
-- `artifacts.json`
-- `plugins/`
-- `samples/`
-- `mirt.py`
-- `config.json`
-- `requirements.txt`
+- `collector.ps1` -> This is a powershell script for collecting artifacts.
+- `orchestrator.ps1` -> Wrapper script that runs the collector, and the Python analysis in one workflow. 
+- `artifacts.json`-> This defines the collected artifacts.
+- `plugins/` -> Python plugins for analysis (for example, the encoded Powershell hunt, hash reputation).
+- `samples/` -> These are sample scripts, and outputs.
+- `mirt.py` -> The python orchestrator for plugin execution.
+- `config.json` -> Used for plugin configuration, and severity mapping.
+- `requirements.txt` -> The python dependencies.
+
+##Setup Instructions
+
+###Required Packages / Modules
+**PowerShell**
+-Windows Powershell 
+-Ensure script execution policy allows running local scripts:
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
