@@ -2,6 +2,7 @@ param(
     [string]$OutputDir = ".\output"
 )
 
+#I used this so that it treats all errors as terminating, to stop the execution.
 $ErrorActionPreference = "Stop"
 
 Write-Host "[*] Starting Incident Response Workflow"
@@ -17,11 +18,14 @@ if (-not (Get-Command python -ErrorAction SilentlyContinue)) {
 }
 #This makes sure the output directory exists:
 if (-not (Test-Path $OutputDir)) {
+#The Out-Null cmdlet discards an output, which prevents clutter in the console.
     New-Item -ItemType Directory -Path $OutputDir | Out-Null
 }
 
 #This is the command we use to create a run folder with timestamps:
 $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
+#I looked online, and used Join-Path to safely combine two parts of a file path into one string
+#so it can handle slashes correctly without the use of manual string concatetion.
 $runDir = Join-Path $OutputDir "run_$timestamp"
 New-Item -ItemType Directory -Path $runDir | Out-Null
 
@@ -32,6 +36,7 @@ try {
     
 #In order to verify we created artifacts.json:
     if (-not (Test-Path "$runDir\artifacts.json")) {
+    #This makes a terminating error that stops execution unless caught between the try/catch commands.
         throw "Artifacts file was not created"
     }
 
@@ -45,5 +50,6 @@ try {
 catch{ 
     Write-Error "[!] Workflow failed: $_"
 }
+
 
 
