@@ -34,7 +34,6 @@ os/sys - Covers file handling, and execution.
 -VirusTotal API key
 -AbuseIPDB API key
 
-**JSON**
 **PowerShell**
 -Windows Powershell 5.1 or later.
 -Administrator privileges recommended.
