@@ -6,6 +6,15 @@ $ErrorActionPreference = "Stop"
 
 Write-Host "[*] Starting Incident Response Workflow"
 
+if (-not (Test-Path ".\collector.ps1")) { throw "Missing .\collector.ps1" }
+if (-not (Test-Path ".\mirt.py"))      { throw "Missing .\mirt.py" }
+if (-not (Test-Path ".\config.json"))  { throw "Missing .\config.json" }
+
+# Check that 'python' is available on PATH
+if (-not (Get-Command python -ErrorAction SilentlyContinue)) {
+    throw "Python is not available. Install Python or add it to PATH (so 'python' works in terminal)."
+}
+
 if (-not (Test-Path $OutputDir)) {
     New-Item -ItemType Directory -Path $OutputDir | Out-Null
 }
@@ -30,3 +39,4 @@ try {
 catch{ 
     Write-Error "[!] Workflow failed: $_"
 }
+
