@@ -25,7 +25,7 @@ foreach ($p in $processes) {
 $connections = Get-NetTCPConnection -State Established |
 Where-Object { $_.RemoteAddress -and $_.RemoteAddress -ne "0.0.0.0" -and $_.RemoteAddress -ne "::" } |
 ForEach-Object {
-    $procId = $_.OwningProcess = $_.OwningProcess
+    $procId = $_.OwningProcess
     $p = $procIndex[$procId]
 
     $exePath = $null
@@ -34,15 +34,15 @@ ForEach-Object {
         $exePath = $p.Path
         $procName = $p.ProcessName
     }
-
-    $targetHash = $null
-            if ($target -and (Test-Path -LiteralPath $target)) {
-                try {
-                    $targetHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $target).Hash
-                } catch {
-                    $targetHash = $null
-                }
-            }
+    
+    $sha256 = $null 
+    if ($exePath -and (Test-Path -LiteralPath $exePath)) {
+        try { 
+            $sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $exePath -ErrorAction SilentlyContinue).Hash 
+        } catch { 
+            $sha256 = $null 
+        }
+    }
 
     [PSCustomObject]@{
         local_ip = $_.LocalAddress
@@ -67,17 +67,17 @@ if (Test-Path $runKeyPath) {
         ForEach-Object {
             $cmd = [string]$_.Value
 
-            $target = $null
-            if ($cmd -match '^\s*"(.*?)"') { $target = $Matches[1] }
-            else { $target = ($cmd -split '\s+')[0] }
-
-            $targetHash = $null
-            if ($target -and (Test-Path -LiteralPath $target)) {
-                try {
-                    $targetHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $target).Hash
-                } catch {
-                    $targetHash = $null
-                }
+            $target = $null 
+            if ($cmd -match '^\s*"(.*?)"') { $target = $Matches[1] } 
+            else { $target = ($cmd -split '\s+')[0] } 
+            
+            $targetHash = $null 
+            if ($target -and (Test-Path -LiteralPath $target)) { 
+                try { 
+                    $targetHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $target -ErrorAction SilentlyContinue).Hash 
+                } catch { 
+                    $targetHash = $null 
+                } 
             }
 
             $persistence += [PSCustomObject]@{
@@ -115,5 +115,3 @@ $artefacts = [PSCustomObject]@{
 $artefacts | ConvertTo-Json -Depth 6 | Out-File -Encoding utf8 $OutputPath
 
 Write-Host "[+] Collection complete. Output saved to $OutputPath"
-
-
