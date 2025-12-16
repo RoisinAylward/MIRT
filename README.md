@@ -44,3 +44,10 @@ output/run_YYYYMMDD_HHMMSS/
     ├── findings.json
     └── report.csv
 
+### 🔌 Plugins
+- `encoded_pshunt.py` → Detects suspicious PowerShell commands (EncodedCommand, DownloadString).
+- `hash_reputation.py` → Checks SHA256 hashes against VirusTotal.
+- `ip_reputation.py` → Enriches remote IPs using AbuseIPDB.
+- `persistence_check.py` → Flags suspicious Run key entries.
+
+###Snippet of Json File:
