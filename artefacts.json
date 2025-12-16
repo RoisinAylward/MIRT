@@ -1,0 +1,2772 @@
+﻿{
+    "run":  {
+                "host":  "LAPTOP-7PS2L8R7",
+                "username":  "35383",
+                "timestamp_utc":  "2025-12-16T23:41:20.5949647Z"
+            },
+    "connections":  [
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  65252,
+                            "remote_ip":  "2603:1020:5:9::402",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34532,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  64143,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  62779,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  62767,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  62726,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  62538,
+                            "remote_ip":  "2a04:4e42:43::347",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59642,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59605,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59578,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59530,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59483,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59458,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59382,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59378,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59355,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59332,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59306,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59303,
+                            "remote_ip":  "2603:1020:5:9::402",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  18116,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59297,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  59023,
+                            "remote_ip":  "2603:1063:2206:18::6",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  35964,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  58297,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  58137,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  57865,
+                            "remote_ip":  "2a01:111:f402:f13d::39",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  25928,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  57770,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  57367,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  56549,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  55711,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  55710,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  55686,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  55350,
+                            "remote_ip":  "2603:1026:2404:1::52",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  35964,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "::1",
+                            "local_port":  53925,
+                            "remote_ip":  "::1",
+                            "remote_port":  631,
+                            "state":  "Established",
+                            "process_id":  32864,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  53896,
+                            "remote_ip":  "2603:1020:5:9::402",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  25928,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  53891,
+                            "remote_ip":  "2603:1020:5:9::400",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  5024,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  53195,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  53123,
+                            "remote_ip":  "2a06:98c1:310b::ac40:9bd1",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  52535,
+                            "remote_ip":  "2603:1063:2206:14::",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  35964,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "2001:bb6:c0ac:ef00:f05e:6501:c014:98ae",
+                            "local_port":  51688,
+                            "remote_ip":  "2a06:98c1:3107::6812:2715",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "::1",
+                            "local_port":  631,
+                            "remote_ip":  "::1",
+                            "remote_port":  53925,
+                            "state":  "Established",
+                            "process_id":  5144,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  64148,
+                            "remote_ip":  "34.203.66.212",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  64145,
+                            "remote_ip":  "107.23.114.119",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  64144,
+                            "remote_ip":  "54.84.119.159",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  62704,
+                            "remote_ip":  "52.178.17.232",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  26156,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  62681,
+                            "remote_ip":  "98.71.35.81",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  5144,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  62537,
+                            "remote_ip":  "54.198.96.232",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  62535,
+                            "remote_ip":  "98.88.156.33",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "127.0.0.1",
+                            "local_port":  59801,
+                            "remote_ip":  "127.0.0.1",
+                            "remote_port":  59800,
+                            "state":  "Established",
+                            "process_id":  36172,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "127.0.0.1",
+                            "local_port":  59800,
+                            "remote_ip":  "127.0.0.1",
+                            "remote_port":  59801,
+                            "state":  "Established",
+                            "process_id":  36172,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "127.0.0.1",
+                            "local_port":  59799,
+                            "remote_ip":  "127.0.0.1",
+                            "remote_port":  59798,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "127.0.0.1",
+                            "local_port":  59798,
+                            "remote_ip":  "127.0.0.1",
+                            "remote_port":  59799,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "127.0.0.1",
+                            "local_port":  59241,
+                            "remote_ip":  "127.0.0.1",
+                            "remote_port":  57524,
+                            "state":  "Established",
+                            "process_id":  26484,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "127.0.0.1",
+                            "local_port":  57524,
+                            "remote_ip":  "127.0.0.1",
+                            "remote_port":  59241,
+                            "state":  "Established",
+                            "process_id":  27472,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  53905,
+                            "remote_ip":  "98.71.35.81",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  5144,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  52936,
+                            "remote_ip":  "34.107.243.93",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  52895,
+                            "remote_ip":  "20.111.1.3",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  21084,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  51729,
+                            "remote_ip":  "140.82.114.26",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  34124,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  51322,
+                            "remote_ip":  "52.178.17.234",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  25928,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "192.168.1.7",
+                            "local_port":  51319,
+                            "remote_ip":  "20.50.80.214",
+                            "remote_port":  443,
+                            "state":  "Established",
+                            "process_id":  21084,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "127.0.0.1",
+                            "local_port":  49671,
+                            "remote_ip":  "127.0.0.1",
+                            "remote_port":  49670,
+                            "state":  "Established",
+                            "process_id":  6600,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        },
+                        {
+                            "local_ip":  "127.0.0.1",
+                            "local_port":  49670,
+                            "remote_ip":  "127.0.0.1",
+                            "remote_port":  49671,
+                            "state":  "Established",
+                            "process_id":  6600,
+                            "process_name":  null,
+                            "exe_path":  null,
+                            "sha256":  null
+                        }
+                    ],
+    "persistence":  [
+                        {
+                            "type":  "RunKey",
+                            "location":  "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+                            "name":  "OneDrive",
+                            "command":  "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background",
+                            "target_path":  "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe",
+                            "sha256":  "BCD025F3CE6CEFEB950B2A02C01BECCFB0A6C8465841AD879E93421418E31B46"
+                        },
+                        {
+                            "type":  "RunKey",
+                            "location":  "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+                            "name":  "EADM",
+                            "command":  "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silent",
+                            "target_path":  "C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe",
+                            "sha256":  "E13373D0C77E14BD5EC8391A716F9585B89A912F7794391952FF0DDFDB14B71E"
+                        },
+                        {
+                            "type":  "RunKey",
+                            "location":  "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+                            "name":  "EpicGamesLauncher",
+                            "command":  "\"C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot",
+                            "target_path":  "C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe",
+                            "sha256":  "B84BEC899D854B8F09FCFD4EB68FDB90CE97939989A75CC2794B11132404AFCA"
+                        },
+                        {
+                            "type":  "RunKey",
+                            "location":  "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+                            "name":  "Proton Drive",
+                            "command":  "\"C:\\Users\\35383\\AppData\\Local\\Programs\\Proton\\Drive\\ProtonDrive.exe\" -quiet",
+                            "target_path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Proton\\Drive\\ProtonDrive.exe",
+                            "sha256":  "ADFCED81A73FB0F25F3654557C630AFB33C776BD668306BF9DB63C4554925292"
+                        },
+                        {
+                            "type":  "RunKey",
+                            "location":  "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+                            "name":  "Teams",
+                            "command":  "\"C:\\Users\\35383\\AppData\\Local\\Microsoft\\WindowsApps\\MSTeams_8wekyb3d8bbwe\\ms-teams.exe\" msteams:system-initiated",
+                            "target_path":  "C:\\Users\\35383\\AppData\\Local\\Microsoft\\WindowsApps\\MSTeams_8wekyb3d8bbwe\\ms-teams.exe",
+                            "sha256":  null
+                        },
+                        {
+                            "type":  "RunKey",
+                            "location":  "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+                            "name":  "MicrosoftEdgeAutoLaunch_AA38DC575B580980CED8A900870D5AF9",
+                            "command":  "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start",
+                            "target_path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+                            "sha256":  "353675DD45AB58936BBB1ED2582B1FEA3257C5029DB12711D1AE5EA6BFF21A3D"
+                        }
+                    ],
+    "powershell_events":  [
+                              {
+                                  "time_created":  "2025-12-16T23:31:09.2022428Z",
+                                  "event_id":  4104,
+                                  "message":  "Creating Scriptblock text (1 of 1):\r\n{ $_.Message -match \"EncodedCommand|DownloadString\" }\r\n\r\nScriptBlock ID: 0b0570d7-03c3-4b63-b12c-f9023584dc9b\r\nPath: C:\\Users\\35383\\Documents\\GitHub\\ScriptingGroupProjectWIP\\collector.ps1"
+                              },
+                              {
+                                  "time_created":  "2025-12-16T23:31:07.6650884Z",
+                                  "event_id":  4104,
+                                  "message":  "Creating Scriptblock text (1 of 1):\r\nparam(\r\n    [string]$OutputPath = \".\\artefacts.json\"\r\n)\r\n\r\n#This shows errors but keeps collecting data.\r\n$ErrorActionPreference = \"Continue\"\r\n\r\n#This displays text straight to console:\r\nWrite-Host \"[*] Starting basic triage collection...\"\r\n\r\n#This colects basic system info:\r\n$run = [PSCustomObject]@{\r\n    host = $env:COMPUTERNAME\r\n    username = $env:USERNAME\r\n    timestamp_utc = (Get-Date).ToUniversalTime().ToString(\"o\")\r\n}\r\n\r\n#This collects run processes like Id.\r\n$processes = Get-Process | Select-Object `\r\n    Id,\r\n    ProcessName,\r\n    Path\r\n\r\n#This makes the lookup table:\r\n$procIndex = @{}\r\nforeach ($p in $processes) {\r\n    $procIndex[$p.Id] = $p\r\n}\r\n\r\n#These commands collect the active TCP connections, and is improved with the process info.\r\n$connections = Get-NetTCPConnection -State Established |\r\nWhere-Object { $_.RemoteAddress -and $_.RemoteAddress -ne \"0.0.0.0\" -and $_.RemoteAddress -ne \"::\" } |\r\nForEach-Object {\r\n    $procId = $_.OwningProcess\r\n    $p = $procIndex[$procId]\r\n\r\n#These are the default values if process is not found:\r\n    $exePath = $null\r\n    $procName = $null\r\n    if ($p) {\r\n        $exePath = $p.Path\r\n        $procName = $p.ProcessName\r\n    }\r\n\r\n#This would try to hash the files, and can fail if the file is locked.\r\n    $sha256 = $null \r\n    if ($exePath -and (Test-Path -LiteralPath $exePath)) {\r\n        try { \r\n            $sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $exePath -ErrorAction SilentlyContinue).Hash \r\n        } catch { \r\n            $sha256 = $null \r\n        }\r\n    }\r\n\r\n#This creates the connection object with proccess details:\r\n    [PSCustomObject]@{\r\n        local_ip = $_.LocalAddress\r\n        local_port = $_.LocalPort\r\n        remote_ip = $_.RemoteAddress\r\n        remote_port = $_.RemotePort\r\n        state = $_.State.ToString()\r\n        process_id = $procId\r\n        process_name = $procName\r\n        exe_path = $exePath\r\n        sha256 = $sha256\r\n    }\r\n}\r\n\r\n#This would look at Run key entries:\r\n$runKeyPath = \"HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\"\r\n$persistence = @()\r\n\r\nif (Test-Path $runKeyPath) {\r\n    Get-ItemProperty $runKeyPath | ForEach-Object{\r\n        $_.PSObject.Properties |\r\n        Where-Object {$_.Name -notlike \"PS*\"} |\r\n        ForEach-Object {\r\n            $cmd = [string]$_.Value\r\n\r\n#This extracts the target executable path from the command string\r\n            $target = $null \r\n            if ($cmd -match \u0027^\\s*\"(.*?)\"\u0027) { $target = $Matches[1] } \r\n            else { $target = ($cmd -split \u0027\\s+\u0027)[0] } \r\n\r\n            #Tries to hash the target binary:\r\n            $targetHash = $null \r\n            if ($target -and (Test-Path -LiteralPath $target)) { \r\n                try { \r\n                    $targetHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $target -ErrorAction SilentlyContinue).Hash \r\n                } catch { \r\n                    $targetHash = $null \r\n                } \r\n            }\r\n\r\n#This builds persistence entry object:\r\n            $persistence += [PSCustomObject]@{\r\n                type = \"RunKey\"\r\n                location = $runKeyPath\r\n                name = $_.Name\r\n                command = $cmd\r\n                target_path = $target\r\n                sha256 = $targetHash\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n#This collects the suspicious Powershell events:\r\n$powershell_events = @()\r\ntry {\r\n    $powershell_events = Get-WinEvent -LogName \"Microsoft-Windows-PowerShell/Operational\" -MaxEvents 100 |\r\n    Where-Object { $_.Message -match \"EncodedCommand|DownloadString\" } |\r\n    Select-Object `\r\n        @{n=\"time_created\";e={$_.TimeCreated.ToUniversalTime().ToString(\"o\")}}, `\r\n        @{n=\"event_id\";e={$_.Id}}, `\r\n        @{n=\"message\";e={$_.Message}}\r\n} catch {\r\n    $powershell_events = @()\r\n}\r\n\r\n#This combines all the artefacts into one object:\r\n$artefacts = [PSCustomObject]@{\r\n    run = $run\r\n    connections = $connections\r\n    persistence = $persistence\r\n    powershell_events = $powershell_events\r\n    processes = $processes\r\n}\r\n\r\n#This would export the artifacts to the JSON file:\r\n$artefacts | ConvertTo-Json -Depth 6 | Out-File -Encoding utf8 $OutputPath\r\n\r\nWrite-Host \"[+] Collection complete. Output saved to $OutputPath\"\r\n\r\n\r\n\r\n\r\n\r\nScriptBlock ID: 1aba9f74-2714-4677-af9e-cadfabe128be\r\nPath: C:\\Users\\35383\\Documents\\GitHub\\ScriptingGroupProjectWIP\\collector.ps1"
+                              },
+                              {
+                                  "time_created":  "2025-12-16T21:21:36.7690101Z",
+                                  "event_id":  4104,
+                                  "message":  "Creating Scriptblock text (1 of 1):\r\n{ $_.Message -match \"EncodedCommand|DownloadString\" }\r\n\r\nScriptBlock ID: fc80b6a2-0420-43fe-a692-2451f81805d5\r\nPath: C:\\Users\\35383\\Documents\\GitHub\\ScriptingGroupProjectWIP\\collector.ps1"
+                              },
+                              {
+                                  "time_created":  "2025-12-16T21:21:35.4662106Z",
+                                  "event_id":  4104,
+                                  "message":  "Creating Scriptblock text (1 of 1):\r\nparam(\r\n    [string]$OutputPath = \".\\artefacts.json\"\r\n)\r\n\r\n#This shows errors but keeps collecting data.\r\n$ErrorActionPreference = \"Continue\"\r\n\r\n#This displays text straight to console:\r\nWrite-Host \"[*] Starting basic triage collection...\"\r\n\r\n#This colects basic system info:\r\n$run = [PSCustomObject]@{\r\n    host = $env:COMPUTERNAME\r\n    username = $env:USERNAME\r\n    timestamp_utc = (Get-Date).ToUniversalTime().ToString(\"o\")\r\n}\r\n\r\n#This collects run processes like Id.\r\n$processes = Get-Process | Select-Object `\r\n    Id,\r\n    ProcessName,\r\n    Path\r\n\r\n#This makes the lookup table:\r\n$procIndex = @{}\r\nforeach ($p in $processes) {\r\n    $procIndex[$p.Id] = $p\r\n}\r\n\r\n#These commands collect the active TCP connections, and is improved with the process info.\r\n$connections = Get-NetTCPConnection -State Established |\r\nWhere-Object { $_.RemoteAddress -and $_.RemoteAddress -ne \"0.0.0.0\" -and $_.RemoteAddress -ne \"::\" } |\r\nForEach-Object {\r\n    $procId = $_.OwningProcess\r\n    $p = $procIndex[$procId]\r\n\r\n#These are the default values if process is not found:\r\n    $exePath = $null\r\n    $procName = $null\r\n    if ($p) {\r\n        $exePath = $p.Path\r\n        $procName = $p.ProcessName\r\n    }\r\n\r\n#This would try to hash the files, and can fail if the file is locked.\r\n    $sha256 = $null \r\n    if ($exePath -and (Test-Path -LiteralPath $exePath)) {\r\n        try { \r\n            $sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $exePath -ErrorAction SilentlyContinue).Hash \r\n        } catch { \r\n            $sha256 = $null \r\n        }\r\n    }\r\n\r\n#This creates the connection object with proccess details:\r\n    [PSCustomObject]@{\r\n        local_ip = $_.LocalAddress\r\n        local_port = $_.LocalPort\r\n        remote_ip = $_.RemoteAddress\r\n        remote_port = $_.RemotePort\r\n        state = $_.State\r\n        process_id = $procId\r\n        process_name = $procName\r\n        exe_path = $exePath\r\n        sha256 = $sha256\r\n    }\r\n}\r\n\r\n#This would look at Run key entries:\r\n$runKeyPath = \"HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\"\r\n$persistence = @()\r\n\r\nif (Test-Path $runKeyPath) {\r\n    Get-ItemProperty $runKeyPath | ForEach-Object{\r\n        $_.PSObject.Properties |\r\n        Where-Object {$_.Name -notlike \"PS*\"} |\r\n        ForEach-Object {\r\n            $cmd = [string]$_.Value\r\n\r\n#This extracts the target executable path from the command string\r\n            $target = $null \r\n            if ($cmd -match \u0027^\\s*\"(.*?)\"\u0027) { $target = $Matches[1] } \r\n            else { $target = ($cmd -split \u0027\\s+\u0027)[0] } \r\n\r\n            #Tries to hash the target binary:\r\n            $targetHash = $null \r\n            if ($target -and (Test-Path -LiteralPath $target)) { \r\n                try { \r\n                    $targetHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $target -ErrorAction SilentlyContinue).Hash \r\n                } catch { \r\n                    $targetHash = $null \r\n                } \r\n            }\r\n\r\n#This builds persistence entry object:\r\n            $persistence += [PSCustomObject]@{\r\n                type = \"RunKey\"\r\n                location = $runKeyPath\r\n                name = $_.Name\r\n                command = $cmd\r\n                target_path = $target\r\n                sha256 = $targetHash\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n#This collects the suspicious Powershell events:\r\n$powershell_events = @()\r\ntry {\r\n    $powershell_events = Get-WinEvent -LogName \"Microsoft-Windows-PowerShell/Operational\" -MaxEvents 100 |\r\n    Where-Object { $_.Message -match \"EncodedCommand|DownloadString\" } |\r\n    Select-Object `\r\n        @{n=\"time_created\";e={$_.TimeCreated.ToUniversalTime().ToString(\"o\")}}, `\r\n        @{n=\"event_id\";e={$_.Id}}, `\r\n        @{n=\"message\";e={$_.Message}}\r\n} catch {\r\n    $powershell_events = @()\r\n}\r\n\r\n#This combines all the artefacts into one object:\r\n$artefacts = [PSCustomObject]@{\r\n    run = $run\r\n    connections = $connections\r\n    persistence = $persistence\r\n    powershell_events = $powershell_events\r\n    processes = $processes\r\n}\r\n\r\n#This would export the artifacts to the JSON file:\r\n$artefacts | ConvertTo-Json -Depth 6 | Out-File -Encoding utf8 $OutputPath\r\n\r\nWrite-Host \"[+] Collection complete. Output saved to $OutputPath\"\r\n\r\n\r\n\r\n\r\n\r\nScriptBlock ID: 16dfb7bd-766f-4857-9dd5-f99fa203ebdf\r\nPath: C:\\Users\\35383\\Documents\\GitHub\\ScriptingGroupProjectWIP\\collector.ps1"
+                              },
+                              {
+                                  "time_created":  "2025-12-16T20:35:04.5397959Z",
+                                  "event_id":  4104,
+                                  "message":  "Creating Scriptblock text (1 of 1):\r\n{ $_.Message -match \"EncodedCommand|DownloadString\" }\r\n\r\nScriptBlock ID: b4f32964-77b3-4ad9-9a04-44609e6860c7\r\nPath: C:\\Users\\35383\\Downloads\\ScriptingGroupProjectWIP\\collector.ps1"
+                              },
+                              {
+                                  "time_created":  "2025-12-16T20:35:00.4944388Z",
+                                  "event_id":  4104,
+                                  "message":  "Creating Scriptblock text (1 of 1):\r\nparam(\r\n    [string]$OutputPath = \".\\artifacts.json\"\r\n)\r\n\r\n#This shows errors but keeps collecting data.\r\n$ErrorActionPreference = \"Continue\"\r\n\r\n#This displays text straight to console:\r\nWrite-Host \"[*] Starting basic triage collection...\"\r\n\r\n$run = [PSCustomObject]@{\r\n    host = $env:COMPUTERNAME\r\n    username = $env:USERNAME\r\n    timestamp_utc = (Get-Date).ToUniversalTime().ToString(\"o\")\r\n}\r\n\r\n$processes = Get-Process | Select-Object `\r\n    Id,\r\n    ProcessName,\r\n    Path\r\n\r\n$procIndex = @{}\r\nforeach ($p in $processes) {\r\n    $procIndex[$p.Id] = $p\r\n}\r\n\r\n$connections = Get-NetTCPConnection -State Established |\r\nWhere-Object { $_.RemoteAddress -and $_.RemoteAddress -ne \"0.0.0.0\" -and $_.RemoteAddress -ne \"::\" } |\r\nForEach-Object {\r\n    $procId = $_.OwningProcess\r\n    $p = $procIndex[$procId]\r\n\r\n    $exePath = $null\r\n    $procName = $null\r\n    if ($p) {\r\n        $exePath = $p.Path\r\n        $procName = $p.ProcessName\r\n    }\r\n    \r\n    $sha256 = $null \r\n    if ($exePath -and (Test-Path -LiteralPath $exePath)) {\r\n        try { \r\n            $sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $exePath -ErrorAction SilentlyContinue).Hash \r\n        } catch { \r\n            $sha256 = $null \r\n        }\r\n    }\r\n\r\n    [PSCustomObject]@{\r\n        local_ip = $_.LocalAddress\r\n        local_port = $_.LocalPort\r\n        remote_ip = $_.RemoteAddress\r\n        remote_port = $_.RemotePort\r\n        state = $_.State\r\n        process_id = $procId\r\n        process_name = $procName\r\n        exe_path = $exePath\r\n        sha256 = $sha256\r\n    }\r\n}\r\n\r\n$runKeyPath = \"HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\"\r\n$persistence = @()\r\n\r\nif (Test-Path $runKeyPath) {\r\n    Get-ItemProperty $runKeyPath | ForEach-Object{\r\n        $_.PSObject.Properties |\r\n        Where-Object {$_.Name -notlike \"PS*\"} |\r\n        ForEach-Object {\r\n            $cmd = [string]$_.Value\r\n\r\n            $target = $null \r\n            if ($cmd -match \u0027^\\s*\"(.*?)\"\u0027) { $target = $Matches[1] } \r\n            else { $target = ($cmd -split \u0027\\s+\u0027)[0] } \r\n            \r\n            $targetHash = $null \r\n            if ($target -and (Test-Path -LiteralPath $target)) { \r\n                try { \r\n                    $targetHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $target -ErrorAction SilentlyContinue).Hash \r\n                } catch { \r\n                    $targetHash = $null \r\n                } \r\n            }\r\n\r\n            $persistence += [PSCustomObject]@{\r\n                type = \"RunKey\"\r\n                location = $runKeyPath\r\n                name = $_.Name\r\n                command = $cmd\r\n                target_path = $target\r\n                sha256 = $targetHash\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n$powershell_events = @()\r\ntry {\r\n    $powershell_events = Get-WinEvent -LogName \"Microsoft-Windows-PowerShell/Operational\" -MaxEvents 100 |\r\n    Where-Object { $_.Message -match \"EncodedCommand|DownloadString\" } |\r\n    Select-Object `\r\n        @{n=\"time_created\";e={$_.TimeCreated.ToUniversalTime().ToString(\"o\")}}, `\r\n        @{n=\"event_id\";e={$_.Id}}, `\r\n        @{n=\"message\";e={$_.Message}}\r\n} catch {\r\n    $powershell_events = @()\r\n}\r\n\r\n$artefacts = [PSCustomObject]@{\r\n    run = $run\r\n    connections = $connections\r\n    persistence = $persistence\r\n    powershell_events = $powershell_events\r\n    processes = $processes\r\n}\r\n\r\n$artefacts | ConvertTo-Json -Depth 6 | Out-File -Encoding utf8 $OutputPath\r\n\r\nWrite-Host \"[+] Collection complete. Output saved to $OutputPath\"\r\n\r\n\r\n\r\nScriptBlock ID: ef1d391d-7bdb-450f-9437-e47be5dd5306\r\nPath: C:\\Users\\35383\\Downloads\\ScriptingGroupProjectWIP\\collector.ps1"
+                              },
+                              {
+                                  "time_created":  "2025-12-16T20:18:16.5668015Z",
+                                  "event_id":  4104,
+                                  "message":  "Creating Scriptblock text (1 of 1):\r\n{ $_.Message -match \"EncodedCommand|DownloadString\" }\r\n\r\nScriptBlock ID: c4b2626b-a541-47ae-97c2-e3cce17a5892\r\nPath: C:\\Users\\35383\\Documents\\GitHub\\ScriptingGroupProjectWIP\\collector.ps1"
+                              },
+                              {
+                                  "time_created":  "2025-12-16T20:18:15.1487547Z",
+                                  "event_id":  4104,
+                                  "message":  "Creating Scriptblock text (1 of 1):\r\nparam(\r\n    [string]$OutputPath = \".\\artefacts.json\"\r\n)\r\n\r\n#This shows errors but keeps collecting data.\r\n$ErrorActionPreference = \"Continue\"\r\n\r\n#This displays text straight to console:\r\nWrite-Host \"[*] Starting basic triage collection...\"\r\n\r\n$run = [PSCustomObject]@{\r\n    host = $env:COMPUTERNAME\r\n    username = $env:USERNAME\r\n    timestamp_utc = (Get-Date).ToUniversalTime().ToString(\"o\")\r\n}\r\n\r\n$processes = Get-Process | Select-Object `\r\n    Id,\r\n    ProcessName,\r\n    Path\r\n\r\n$procIndex = @{}\r\nforeach ($p in $processes) {\r\n    $procIndex[$p.Id] = $p\r\n}\r\n\r\n$connections = Get-NetTCPConnection -State Established |\r\nWhere-Object { $_.RemoteAddress -and $_.RemoteAddress -ne \"0.0.0.0\" -and $_.RemoteAddress -ne \"::\" } |\r\nForEach-Object {\r\n    $procId = $_.OwningProcess\r\n    $p = $procIndex[$procId]\r\n\r\n    $exePath = $null\r\n    $procName = $null\r\n    if ($p) {\r\n        $exePath = $p.Path\r\n        $procName = $p.ProcessName\r\n    }\r\n    \r\n    $sha256 = $null \r\n    if ($exePath -and (Test-Path -LiteralPath $exePath)) {\r\n        try { \r\n            $sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $exePath -ErrorAction SilentlyContinue).Hash \r\n        } catch { \r\n            $sha256 = $null \r\n        }\r\n    }\r\n\r\n    [PSCustomObject]@{\r\n        local_ip = $_.LocalAddress\r\n        local_port = $_.LocalPort\r\n        remote_ip = $_.RemoteAddress\r\n        remote_port = $_.RemotePort\r\n        state = $_.State\r\n        process_id = $procId\r\n        process_name = $procName\r\n        exe_path = $exePath\r\n        sha256 = $sha256\r\n    }\r\n}\r\n\r\n$runKeyPath = \"HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\"\r\n$persistence = @()\r\n\r\nif (Test-Path $runKeyPath) {\r\n    Get-ItemProperty $runKeyPath | ForEach-Object{\r\n        $_.PSObject.Properties |\r\n        Where-Object {$_.Name -notlike \"PS*\"} |\r\n        ForEach-Object {\r\n            $cmd = [string]$_.Value\r\n\r\n            $target = $null \r\n            if ($cmd -match \u0027^\\s*\"(.*?)\"\u0027) { $target = $Matches[1] } \r\n            else { $target = ($cmd -split \u0027\\s+\u0027)[0] } \r\n            \r\n            $targetHash = $null \r\n            if ($target -and (Test-Path -LiteralPath $target)) { \r\n                try { \r\n                    $targetHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $target -ErrorAction SilentlyContinue).Hash \r\n                } catch { \r\n                    $targetHash = $null \r\n                } \r\n            }\r\n\r\n            $persistence += [PSCustomObject]@{\r\n                type = \"RunKey\"\r\n                location = $runKeyPath\r\n                name = $_.Name\r\n                command = $cmd\r\n                target_path = $target\r\n                sha256 = $targetHash\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n$powershell_events = @()\r\ntry {\r\n    $powershell_events = Get-WinEvent -LogName \"Microsoft-Windows-PowerShell/Operational\" -MaxEvents 100 |\r\n    Where-Object { $_.Message -match \"EncodedCommand|DownloadString\" } |\r\n    Select-Object `\r\n        @{n=\"time_created\";e={$_.TimeCreated.ToUniversalTime().ToString(\"o\")}}, `\r\n        @{n=\"event_id\";e={$_.Id}}, `\r\n        @{n=\"message\";e={$_.Message}}\r\n} catch {\r\n    $powershell_events = @()\r\n}\r\n\r\n$artefacts = [PSCustomObject]@{\r\n    run = $run\r\n    connections = $connections\r\n    persistence = $persistence\r\n    powershell_events = $powershell_events\r\n    processes = $processes\r\n}\r\n\r\n$artefacts | ConvertTo-Json -Depth 6 | Out-File -Encoding utf8 $OutputPath\r\n\r\nWrite-Host \"[+] Collection complete. Output saved to $OutputPath\"\r\n\r\n\r\n\r\nScriptBlock ID: c1186207-1669-4af8-9c9a-a8957159a989\r\nPath: C:\\Users\\35383\\Documents\\GitHub\\ScriptingGroupProjectWIP\\collector.ps1"
+                              },
+                              {
+                                  "time_created":  "2025-12-16T19:27:16.9285646Z",
+                                  "event_id":  4104,
+                                  "message":  "Creating Scriptblock text (1 of 1):\r\n{ $_.Message -match \"EncodedCommand|DownloadString\" }\r\n\r\nScriptBlock ID: 2cd5910b-bec5-4bc6-92f1-835bd17daef8\r\nPath: C:\\Users\\35383\\Documents\\GitHub\\ScriptingGroupProjectWIP\\collector.ps1"
+                              },
+                              {
+                                  "time_created":  "2025-12-16T19:27:14.1175679Z",
+                                  "event_id":  4104,
+                                  "message":  "Creating Scriptblock text (1 of 1):\r\nparam(\r\n    [string]$OutputPath = \".\\artifacts.json\"\r\n)\r\n\r\n#This shows errors but keeps collecting data.\r\n$ErrorActionPreference = \"Continue\"\r\n\r\n#This displays text straight to console:\r\nWrite-Host \"[*] Starting basic triage collection...\"\r\n\r\n$run = [PSCustomObject]@{\r\n    host = $env:COMPUTERNAME\r\n    username = $env:USERNAME\r\n    timestamp_utc = (Get-Date).ToUniversalTime().ToString(\"o\")\r\n}\r\n\r\n$processes = Get-Process | Select-Object `\r\n    Id,\r\n    ProcessName,\r\n    Path\r\n\r\n$procIndex = @{}\r\nforeach ($p in $processes) {\r\n    $procIndex[$p.Id] = $p\r\n}\r\n\r\n$connections = Get-NetTCPConnection -State Established |\r\nWhere-Object { $_.RemoteAddress -and $_.RemoteAddress -ne \"0.0.0.0\" -and $_.RemoteAddress -ne \"::\" } |\r\nForEach-Object {\r\n    $procId = $_.OwningProcess\r\n    $p = $procIndex[$procId]\r\n\r\n    $exePath = $null\r\n    $procName = $null\r\n    if ($p) {\r\n        $exePath = $p.Path\r\n        $procName = $p.ProcessName\r\n    }\r\n    \r\n    $sha256 = $null \r\n    if ($exePath -and (Test-Path -LiteralPath $exePath)) {\r\n        try { \r\n            $sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $exePath -ErrorAction SilentlyContinue).Hash \r\n        } catch { \r\n            $sha256 = $null \r\n        }\r\n    }\r\n\r\n    [PSCustomObject]@{\r\n        local_ip = $_.LocalAddress\r\n        local_port = $_.LocalPort\r\n        remote_ip = $_.RemoteAddress\r\n        remote_port = $_.RemotePort\r\n        state = $_.State\r\n        process_id = $procId\r\n        process_name = $procName\r\n        exe_path = $exePath\r\n        sha256 = $sha256\r\n    }\r\n}\r\n\r\n$runKeyPath = \"HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\"\r\n$persistence = @()\r\n\r\nif (Test-Path $runKeyPath) {\r\n    Get-ItemProperty $runKeyPath | ForEach-Object{\r\n        $_.PSObject.Properties |\r\n        Where-Object {$_.Name -notlike \"PS*\"} |\r\n        ForEach-Object {\r\n            $cmd = [string]$_.Value\r\n\r\n            $target = $null \r\n            if ($cmd -match \u0027^\\s*\"(.*?)\"\u0027) { $target = $Matches[1] } \r\n            else { $target = ($cmd -split \u0027\\s+\u0027)[0] } \r\n            \r\n            $targetHash = $null \r\n            if ($target -and (Test-Path -LiteralPath $target)) { \r\n                try { \r\n                    $targetHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $target -ErrorAction SilentlyContinue).Hash \r\n                } catch { \r\n                    $targetHash = $null \r\n                } \r\n            }\r\n\r\n            $persistence += [PSCustomObject]@{\r\n                type = \"RunKey\"\r\n                location = $runKeyPath\r\n                name = $_.Name\r\n                command = $cmd\r\n                target_path = $target\r\n                sha256 = $targetHash\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n$powershell_events = @()\r\ntry {\r\n    $powershell_events = Get-WinEvent -LogName \"Microsoft-Windows-PowerShell/Operational\" -MaxEvents 100 |\r\n    Where-Object { $_.Message -match \"EncodedCommand|DownloadString\" } |\r\n    Select-Object `\r\n        @{n=\"time_created\";e={$_.TimeCreated.ToUniversalTime().ToString(\"o\")}}, `\r\n        @{n=\"event_id\";e={$_.Id}}, `\r\n        @{n=\"message\";e={$_.Message}}\r\n} catch {\r\n    $powershell_events = @()\r\n}\r\n\r\n$artefacts = [PSCustomObject]@{\r\n    run = $run\r\n    connections = $connections\r\n    persistence = $persistence\r\n    powershell_events = $powershell_events\r\n    processes = $processes\r\n}\r\n\r\n$artefacts | ConvertTo-Json -Depth 6 | Out-File -Encoding utf8 $OutputPath\r\n\r\nWrite-Host \"[+] Collection complete. Output saved to $OutputPath\"\r\n\r\n\r\n\r\nScriptBlock ID: 0558f8ad-4a5e-4db4-b6fd-ab63d8a61458\r\nPath: C:\\Users\\35383\\Documents\\GitHub\\ScriptingGroupProjectWIP\\collector.ps1"
+                              }
+                          ],
+    "processes":  [
+                      {
+                          "Id":  2128,
+                          "ProcessName":  "AdobeIPCBroker",
+                          "Path":  "C:\\Program Files (x86)\\Common Files\\Adobe\\Adobe Desktop Common\\IPCBox\\AdobeIPCBroker.exe"
+                      },
+                      {
+                          "Id":  24452,
+                          "ProcessName":  "aesm_service",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  10264,
+                          "ProcessName":  "AggregatorHost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4040,
+                          "ProcessName":  "ai",
+                          "Path":  "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\OFFICE16\\AI\\ai.exe"
+                      },
+                      {
+                          "Id":  14732,
+                          "ProcessName":  "ai",
+                          "Path":  "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\OFFICE16\\AI\\ai.exe"
+                      },
+                      {
+                          "Id":  10124,
+                          "ProcessName":  "aimgr",
+                          "Path":  "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\OFFICE16\\AI\\aimgr.exe"
+                      },
+                      {
+                          "Id":  15700,
+                          "ProcessName":  "AppActions",
+                          "Path":  "C:\\WINDOWS\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\AppActions.exe"
+                      },
+                      {
+                          "Id":  30132,
+                          "ProcessName":  "ApplicationFrameHost",
+                          "Path":  "C:\\WINDOWS\\system32\\ApplicationFrameHost.exe"
+                      },
+                      {
+                          "Id":  600,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  1664,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  6380,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  9672,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  12348,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  12544,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  13352,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  13684,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  14364,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  17936,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  19564,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  20956,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  21060,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  21920,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  22252,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  22940,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  22988,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  24244,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  24836,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  26456,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  26600,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  29392,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  29764,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  30716,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  32552,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  35832,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  40340,
+                          "ProcessName":  "backgroundTaskHost",
+                          "Path":  "C:\\WINDOWS\\system32\\backgroundTaskHost.exe"
+                      },
+                      {
+                          "Id":  40216,
+                          "ProcessName":  "CCXProcess",
+                          "Path":  "C:\\Program Files\\Adobe\\Adobe Creative Cloud Experience\\CCXProcess.exe"
+                      },
+                      {
+                          "Id":  31400,
+                          "ProcessName":  "cmd",
+                          "Path":  "C:\\WINDOWS\\system32\\cmd.exe"
+                      },
+                      {
+                          "Id":  33332,
+                          "ProcessName":  "cmd",
+                          "Path":  "C:\\WINDOWS\\system32\\cmd.exe"
+                      },
+                      {
+                          "Id":  3720,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  6220,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  13668,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  16212,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  21084,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  25080,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  30436,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  33768,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  36204,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  36608,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  38388,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  39120,
+                          "ProcessName":  "Code",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                      },
+                      {
+                          "Id":  4000,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  5716,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  6888,
+                          "ProcessName":  "conhost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  8328,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  11108,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  13848,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  18876,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  18904,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  23876,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  24132,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  24760,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  28756,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  37104,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  38056,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  38576,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  40440,
+                          "ProcessName":  "conhost",
+                          "Path":  "C:\\WINDOWS\\system32\\conhost.exe"
+                      },
+                      {
+                          "Id":  32876,
+                          "ProcessName":  "crashhelper",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\crashhelper.exe"
+                      },
+                      {
+                          "Id":  28220,
+                          "ProcessName":  "crashpad_handler",
+                          "Path":  "C:\\Program Files\\Corsair\\Corsair iCUE5 Software\\crashpad_handler.exe"
+                      },
+                      {
+                          "Id":  25964,
+                          "ProcessName":  "CrossDeviceService",
+                          "Path":  "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25102.46.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe"
+                      },
+                      {
+                          "Id":  1100,
+                          "ProcessName":  "csrss",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  20080,
+                          "ProcessName":  "csrss",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  32928,
+                          "ProcessName":  "ctfmon",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  11876,
+                          "ProcessName":  "DataExchangeHost",
+                          "Path":  "C:\\Windows\\System32\\DataExchangeHost.exe"
+                      },
+                      {
+                          "Id":  14360,
+                          "ProcessName":  "dwm",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5416,
+                          "ProcessName":  "esif_uf",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  17628,
+                          "ProcessName":  "explorer",
+                          "Path":  "C:\\WINDOWS\\Explorer.EXE"
+                      },
+                      {
+                          "Id":  19764,
+                          "ProcessName":  "FileCoAuth",
+                          "Path":  "C:\\Program Files\\Microsoft OneDrive\\25.222.1112.0002\\FileCoAuth.exe"
+                      },
+                      {
+                          "Id":  18808,
+                          "ProcessName":  "FileSyncHelper",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1388,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  1868,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  5680,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  6408,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  7020,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  10032,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  10772,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  11292,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  11944,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  12092,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  13756,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  14148,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  18292,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  18984,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  20828,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  20940,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  21936,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  22068,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  23236,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  23420,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  23884,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  24032,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  24840,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  25980,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  27924,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  28772,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  30012,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  30028,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  30564,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  30680,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  32432,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  34124,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  34788,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  35108,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  35528,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  36172,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  36952,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  37040,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  37168,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  37704,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  38004,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  38172,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  38808,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  39200,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  40876,
+                          "ProcessName":  "firefox",
+                          "Path":  "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+                      },
+                      {
+                          "Id":  4868,
+                          "ProcessName":  "FMService64",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  16576,
+                          "ProcessName":  "FnHotkeyCapsLKNumLK",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  6216,
+                          "ProcessName":  "FnHotkeyUtility",
+                          "Path":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_dd4c065a3153c566\\FnHotkeyUtility.exe"
+                      },
+                      {
+                          "Id":  1560,
+                          "ProcessName":  "fontdrvhost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  6308,
+                          "ProcessName":  "fontdrvhost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  9324,
+                          "ProcessName":  "gamingservices",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  9440,
+                          "ProcessName":  "gamingservicesnet",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1512,
+                          "ProcessName":  "GitHubDesktop",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\GitHubDesktop\\app-3.5.4\\GitHubDesktop.exe"
+                      },
+                      {
+                          "Id":  12896,
+                          "ProcessName":  "GitHubDesktop",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\GitHubDesktop\\app-3.5.4\\GitHubDesktop.exe"
+                      },
+                      {
+                          "Id":  36424,
+                          "ProcessName":  "GitHubDesktop",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\GitHubDesktop\\app-3.5.4\\GitHubDesktop.exe"
+                      },
+                      {
+                          "Id":  40816,
+                          "ProcessName":  "GitHubDesktop",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\GitHubDesktop\\app-3.5.4\\GitHubDesktop.exe"
+                      },
+                      {
+                          "Id":  1736,
+                          "ProcessName":  "iCUE",
+                          "Path":  "C:\\Program Files\\Corsair\\Corsair iCUE5 Software\\iCUE.exe"
+                      },
+                      {
+                          "Id":  6244,
+                          "ProcessName":  "iCUEDevicePluginHost",
+                          "Path":  "C:\\Program Files\\Corsair\\Corsair iCUE5 Software\\iCUEDevicePluginHost.exe"
+                      },
+                      {
+                          "Id":  16356,
+                          "ProcessName":  "iCUEDevicePluginHost",
+                          "Path":  "C:\\Program Files\\Corsair\\Corsair iCUE5 Software\\iCUEDevicePluginHost.exe"
+                      },
+                      {
+                          "Id":  20524,
+                          "ProcessName":  "iCUEDevicePluginHost",
+                          "Path":  "C:\\Program Files\\Corsair\\Corsair iCUE5 Software\\iCUEDevicePluginHost.exe"
+                      },
+                      {
+                          "Id":  25472,
+                          "ProcessName":  "iCUEDevicePluginHost",
+                          "Path":  "C:\\Program Files\\Corsair\\Corsair iCUE5 Software\\iCUEDevicePluginHost.exe"
+                      },
+                      {
+                          "Id":  0,
+                          "ProcessName":  "Idle",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3732,
+                          "ProcessName":  "igfxCUIService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  22584,
+                          "ProcessName":  "igfxEM",
+                          "Path":  "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_790c20683c3a62ec\\igfxEM.exe"
+                      },
+                      {
+                          "Id":  4800,
+                          "ProcessName":  "Intel_PIE_Service",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2224,
+                          "ProcessName":  "IntelCpHDCPSvc",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2652,
+                          "ProcessName":  "IntelCpHeciSvc",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4916,
+                          "ProcessName":  "jhi_service",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4900,
+                          "ProcessName":  "Lenovo.Modern.ImController",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  9092,
+                          "ProcessName":  "Lenovo.Modern.ImController.PluginHost.Device",
+                          "Path":  "C:\\WINDOWS\\Lenovo\\iMController\\PluginHost\\Lenovo.Modern.ImController.PluginHost.Device.exe"
+                      },
+                      {
+                          "Id":  29812,
+                          "ProcessName":  "Lenovo.Modern.ImController.PluginHost.Device",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4948,
+                          "ProcessName":  "LenovoUtilityService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5032,
+                          "ProcessName":  "LenovoVantageService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5220,
+                          "ProcessName":  "LMS",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1352,
+                          "ProcessName":  "LsaIso",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1372,
+                          "ProcessName":  "lsass",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  39864,
+                          "ProcessName":  "LSB",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Lenovo\\Lenovo Service Bridge\\LSB.exe"
+                      },
+                      {
+                          "Id":  33508,
+                          "ProcessName":  "M365Copilot",
+                          "Path":  "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2512.41101.0_x64__8wekyb3d8bbwe\\M365Copilot.exe"
+                      },
+                      {
+                          "Id":  3608,
+                          "ProcessName":  "Memory Compression",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  14400,
+                          "ProcessName":  "MicrosoftStartFeedProvider",
+                          "Path":  "C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.195.0.0_x64__8wekyb3d8bbwe\\MicrosoftStartFeedProvider\\MicrosoftStartFeedProvider.exe"
+                      },
+                      {
+                          "Id":  22376,
+                          "ProcessName":  "MpDefenderCoreService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1088,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  2400,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  5672,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  8984,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  10636,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  14084,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  15764,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  15968,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  16688,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  17900,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  18120,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  20456,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  24092,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  28640,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  29440,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  32504,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  35176,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  40220,
+                          "ProcessName":  "msedge",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+                      },
+                      {
+                          "Id":  1120,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  2396,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  2564,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  4488,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  5460,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  5468,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  5740,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  7304,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  9136,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  10924,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  12300,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  14304,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  14464,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  15212,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  15216,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  16276,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  16580,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  17440,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  18556,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  18608,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  19860,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  22844,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  23312,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  26924,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  28176,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  29536,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  34796,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  36520,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  39808,
+                          "ProcessName":  "msedgewebview2",
+                          "Path":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.80\\msedgewebview2.exe"
+                      },
+                      {
+                          "Id":  14756,
+                          "ProcessName":  "MsMpEng",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5268,
+                          "ProcessName":  "mysqld",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  6600,
+                          "ProcessName":  "mysqld",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  12756,
+                          "ProcessName":  "NgcIso",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  37232,
+                          "ProcessName":  "NisSrv",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  33912,
+                          "ProcessName":  "node",
+                          "Path":  "C:\\Program Files\\Adobe\\Adobe Creative Cloud Experience\\libs\\node.exe"
+                      },
+                      {
+                          "Id":  15576,
+                          "ProcessName":  "Notepad",
+                          "Path":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2508.38.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe"
+                      },
+                      {
+                          "Id":  26960,
+                          "ProcessName":  "Notepad",
+                          "Path":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2508.38.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe"
+                      },
+                      {
+                          "Id":  4940,
+                          "ProcessName":  "nvcontainer",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  8092,
+                          "ProcessName":  "nvcontainer",
+                          "Path":  "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+                      },
+                      {
+                          "Id":  27728,
+                          "ProcessName":  "nvcontainer",
+                          "Path":  "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+                      },
+                      {
+                          "Id":  1276,
+                          "ProcessName":  "NVDisplay.Container",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  15996,
+                          "ProcessName":  "NVDisplay.Container",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  18628,
+                          "ProcessName":  "NVIDIA Share",
+                          "Path":  "C:\\Program Files\\NVIDIA Corporation\\NVIDIA GeForce Experience\\NVIDIA Share.exe"
+                      },
+                      {
+                          "Id":  26484,
+                          "ProcessName":  "NVIDIA Share",
+                          "Path":  "C:\\Program Files\\NVIDIA Corporation\\NVIDIA GeForce Experience\\NVIDIA Share.exe"
+                      },
+                      {
+                          "Id":  40000,
+                          "ProcessName":  "NVIDIA Share",
+                          "Path":  "C:\\Program Files\\NVIDIA Corporation\\NVIDIA GeForce Experience\\NVIDIA Share.exe"
+                      },
+                      {
+                          "Id":  27472,
+                          "ProcessName":  "NVIDIA Web Helper",
+                          "Path":  "C:\\Program Files (x86)\\NVIDIA Corporation\\NvNode\\NVIDIA Web Helper.exe"
+                      },
+                      {
+                          "Id":  20560,
+                          "ProcessName":  "nvsphelper64",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  30384,
+                          "ProcessName":  "OfficeClickToRun",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  22632,
+                          "ProcessName":  "olk",
+                          "Path":  "C:\\Program Files\\WindowsApps\\Microsoft.OutlookForWindows_1.2025.1208.200_x64__8wekyb3d8bbwe\\olk.exe"
+                      },
+                      {
+                          "Id":  4880,
+                          "ProcessName":  "OneApp.IGCC.WinService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  18116,
+                          "ProcessName":  "OneDrive",
+                          "Path":  "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe"
+                      },
+                      {
+                          "Id":  25928,
+                          "ProcessName":  "OneDrive",
+                          "Path":  "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe"
+                      },
+                      {
+                          "Id":  34532,
+                          "ProcessName":  "OneDrive",
+                          "Path":  "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe"
+                      },
+                      {
+                          "Id":  26156,
+                          "ProcessName":  "OneDrive.Sync.Service",
+                          "Path":  "C:\\Program Files\\Microsoft OneDrive\\25.222.1112.0002\\OneDrive.Sync.Service.exe"
+                      },
+                      {
+                          "Id":  39780,
+                          "ProcessName":  "ONENOTEM",
+                          "Path":  "C:\\Program Files\\Microsoft Office\\root\\Office16\\ONENOTEM.EXE"
+                      },
+                      {
+                          "Id":  24376,
+                          "ProcessName":  "pet",
+                          "Path":  "c:\\Users\\35383\\.vscode\\extensions\\ms-python.python-2025.20.0-win32-x64\\python-env-tools\\bin\\pet.exe"
+                      },
+                      {
+                          "Id":  6100,
+                          "ProcessName":  "PhoneExperienceHost",
+                          "Path":  "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25102.64.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe"
+                      },
+                      {
+                          "Id":  19288,
+                          "ProcessName":  "powershell",
+                          "Path":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                      },
+                      {
+                          "Id":  24080,
+                          "ProcessName":  "powershell",
+                          "Path":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                      },
+                      {
+                          "Id":  29164,
+                          "ProcessName":  "powershell",
+                          "Path":  "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                      },
+                      {
+                          "Id":  40948,
+                          "ProcessName":  "powershell",
+                          "Path":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                      },
+                      {
+                          "Id":  10252,
+                          "ProcessName":  "PresentationFontCache",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  17540,
+                          "ProcessName":  "ProtonDrive",
+                          "Path":  "C:\\Users\\35383\\AppData\\Local\\Programs\\Proton\\Drive\\ProtonDrive.exe"
+                      },
+                      {
+                          "Id":  39660,
+                          "ProcessName":  "QmlRenderer",
+                          "Path":  "C:\\Program Files\\Corsair\\Corsair iCUE5 Software\\QmlRenderer.exe"
+                      },
+                      {
+                          "Id":  280,
+                          "ProcessName":  "Registry",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5100,
+                          "ProcessName":  "RstMwService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5084,
+                          "ProcessName":  "RtkAudUService64",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  25552,
+                          "ProcessName":  "RtkAudUService64",
+                          "Path":  "C:\\Windows\\System32\\RtkAudUService64.exe"
+                      },
+                      {
+                          "Id":  4196,
+                          "ProcessName":  "RuntimeBroker",
+                          "Path":  "C:\\Windows\\System32\\RuntimeBroker.exe"
+                      },
+                      {
+                          "Id":  15952,
+                          "ProcessName":  "RuntimeBroker",
+                          "Path":  "C:\\Windows\\System32\\RuntimeBroker.exe"
+                      },
+                      {
+                          "Id":  17136,
+                          "ProcessName":  "RuntimeBroker",
+                          "Path":  "C:\\Windows\\System32\\RuntimeBroker.exe"
+                      },
+                      {
+                          "Id":  18660,
+                          "ProcessName":  "RuntimeBroker",
+                          "Path":  "C:\\Windows\\System32\\RuntimeBroker.exe"
+                      },
+                      {
+                          "Id":  24352,
+                          "ProcessName":  "RuntimeBroker",
+                          "Path":  "C:\\Windows\\System32\\RuntimeBroker.exe"
+                      },
+                      {
+                          "Id":  25060,
+                          "ProcessName":  "RuntimeBroker",
+                          "Path":  "C:\\Windows\\System32\\RuntimeBroker.exe"
+                      },
+                      {
+                          "Id":  25660,
+                          "ProcessName":  "RuntimeBroker",
+                          "Path":  "C:\\Windows\\System32\\RuntimeBroker.exe"
+                      },
+                      {
+                          "Id":  30480,
+                          "ProcessName":  "RuntimeBroker",
+                          "Path":  "C:\\Windows\\System32\\RuntimeBroker.exe"
+                      },
+                      {
+                          "Id":  39816,
+                          "ProcessName":  "RuntimeBroker",
+                          "Path":  "C:\\Windows\\System32\\RuntimeBroker.exe"
+                      },
+                      {
+                          "Id":  4708,
+                          "ProcessName":  "SearchFilterHost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  14608,
+                          "ProcessName":  "SearchFilterHost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  30764,
+                          "ProcessName":  "SearchFilterHost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  26820,
+                          "ProcessName":  "SearchHost",
+                          "Path":  "C:\\WINDOWS\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe"
+                      },
+                      {
+                          "Id":  32872,
+                          "ProcessName":  "SearchIndexer",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  40804,
+                          "ProcessName":  "SearchProtocolHost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  236,
+                          "ProcessName":  "Secure System",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  7672,
+                          "ProcessName":  "SecurityHealthService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  18812,
+                          "ProcessName":  "SecurityHealthSystray",
+                          "Path":  "C:\\Windows\\System32\\SecurityHealthSystray.exe"
+                      },
+                      {
+                          "Id":  1332,
+                          "ProcessName":  "services",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  25336,
+                          "ProcessName":  "ShellExperienceHost",
+                          "Path":  "C:\\WINDOWS\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe"
+                      },
+                      {
+                          "Id":  34768,
+                          "ProcessName":  "ShellHost",
+                          "Path":  "C:\\Windows\\System32\\ShellHost.exe"
+                      },
+                      {
+                          "Id":  25268,
+                          "ProcessName":  "sihost",
+                          "Path":  "C:\\WINDOWS\\system32\\sihost.exe"
+                      },
+                      {
+                          "Id":  788,
+                          "ProcessName":  "smss",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  25632,
+                          "ProcessName":  "SnippingTool",
+                          "Path":  "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2510.31.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe"
+                      },
+                      {
+                          "Id":  4280,
+                          "ProcessName":  "spoolsv",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  9808,
+                          "ProcessName":  "StartMenuExperienceHost",
+                          "Path":  "C:\\WINDOWS\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe"
+                      },
+                      {
+                          "Id":  1104,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1412,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1520,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1696,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1752,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1968,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2028,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2040,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2108,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2116,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2172,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2232,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2280,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2368,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2412,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2568,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2644,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2908,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3036,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3064,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3232,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3244,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3336,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3400,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3408,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3416,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3452,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3644,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3740,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3796,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3804,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3868,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3912,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  3956,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4092,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4200,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4228,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4308,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4428,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4452,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4468,
+                          "ProcessName":  "svchost",
+                          "Path":  "C:\\WINDOWS\\system32\\svchost.exe"
+                      },
+                      {
+                          "Id":  4596,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4760,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4804,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4832,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4848,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4908,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4924,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4932,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4980,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5016,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5024,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5352,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  6236,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  7204,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  8060,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  8824,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  9100,
+                          "ProcessName":  "svchost",
+                          "Path":  "C:\\WINDOWS\\system32\\svchost.exe"
+                      },
+                      {
+                          "Id":  9292,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  9296,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  10612,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  10804,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  10812,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  10976,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  11748,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  11948,
+                          "ProcessName":  "svchost",
+                          "Path":  "C:\\WINDOWS\\system32\\svchost.exe"
+                      },
+                      {
+                          "Id":  12264,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  12368,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  12556,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  12568,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  13144,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  15012,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  16140,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  16620,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  17844,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  17928,
+                          "ProcessName":  "svchost",
+                          "Path":  "C:\\WINDOWS\\system32\\svchost.exe"
+                      },
+                      {
+                          "Id":  18220,
+                          "ProcessName":  "svchost",
+                          "Path":  "C:\\WINDOWS\\system32\\svchost.exe"
+                      },
+                      {
+                          "Id":  18324,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  19292,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  21864,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  22240,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  23516,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  24292,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  24420,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  24568,
+                          "ProcessName":  "svchost",
+                          "Path":  "C:\\WINDOWS\\system32\\svchost.exe"
+                      },
+                      {
+                          "Id":  24972,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  25344,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  27976,
+                          "ProcessName":  "svchost",
+                          "Path":  "C:\\WINDOWS\\system32\\svchost.exe"
+                      },
+                      {
+                          "Id":  28428,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  28628,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  29484,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  34868,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  34872,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  39344,
+                          "ProcessName":  "svchost",
+                          "Path":  "C:\\WINDOWS\\system32\\svchost.exe"
+                      },
+                      {
+                          "Id":  40296,
+                          "ProcessName":  "svchost",
+                          "Path":  "C:\\WINDOWS\\system32\\svchost.exe"
+                      },
+                      {
+                          "Id":  40320,
+                          "ProcessName":  "svchost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4,
+                          "ProcessName":  "System",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  7344,
+                          "ProcessName":  "SystemSettings",
+                          "Path":  "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe"
+                      },
+                      {
+                          "Id":  36440,
+                          "ProcessName":  "taskhostw",
+                          "Path":  "C:\\WINDOWS\\system32\\taskhostw.exe"
+                      },
+                      {
+                          "Id":  4972,
+                          "ProcessName":  "TbtP2pShortcutService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4996,
+                          "ProcessName":  "ThunderboltService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4956,
+                          "ProcessName":  "TISmartAmpService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  8720,
+                          "ProcessName":  "TISmartAmpService",
+                          "Path":  "C:\\WINDOWS\\System32\\TISmartAmpService.exe"
+                      },
+                      {
+                          "Id":  23888,
+                          "ProcessName":  "ttpmenu",
+                          "Path":  "C:\\Program Files (x86)\\teraterm5\\ttpmenu.exe"
+                      },
+                      {
+                          "Id":  4992,
+                          "ProcessName":  "unsecapp",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  10676,
+                          "ProcessName":  "unsecapp",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  20732,
+                          "ProcessName":  "unsecapp",
+                          "Path":  "C:\\WINDOWS\\system32\\wbem\\unsecapp.exe"
+                      },
+                      {
+                          "Id":  5568,
+                          "ProcessName":  "UserOOBEBroker",
+                          "Path":  "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe"
+                      },
+                      {
+                          "Id":  21568,
+                          "ProcessName":  "Video.UI",
+                          "Path":  "C:\\Program Files\\WindowsApps\\Microsoft.ZuneVideo_10.25101.10031.0_x64__8wekyb3d8bbwe\\Video.UI.exe"
+                      },
+                      {
+                          "Id":  5056,
+                          "ProcessName":  "vmnat",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  4340,
+                          "ProcessName":  "vmnetdhcp",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5040,
+                          "ProcessName":  "vmware-authd",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5112,
+                          "ProcessName":  "vmware-usbarbitrator64",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  14340,
+                          "ProcessName":  "WidgetBoard",
+                          "Path":  "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_525.31002.150.0_x64__cw5n1h2txyewy\\WidgetBoard.exe"
+                      },
+                      {
+                          "Id":  28044,
+                          "ProcessName":  "WidgetService",
+                          "Path":  "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.14.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe"
+                      },
+                      {
+                          "Id":  4572,
+                          "ProcessName":  "WindowsPackageManagerServer",
+                          "Path":  "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.27.350.0_x64__8wekyb3d8bbwe\\WindowsPackageManagerServer.exe"
+                      },
+                      {
+                          "Id":  1204,
+                          "ProcessName":  "wininit",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  21432,
+                          "ProcessName":  "winlogon",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  35964,
+                          "ProcessName":  "WINWORD",
+                          "Path":  "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE"
+                      },
+                      {
+                          "Id":  6992,
+                          "ProcessName":  "wlanext",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  25892,
+                          "ProcessName":  "WmiApSrv",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  7088,
+                          "ProcessName":  "WmiPrvSE",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  5076,
+                          "ProcessName":  "WMIRegistrationService",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1620,
+                          "ProcessName":  "WUDFHost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  1908,
+                          "ProcessName":  "WUDFHost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  2936,
+                          "ProcessName":  "WUDFHost",
+                          "Path":  null
+                      },
+                      {
+                          "Id":  17268,
+                          "ProcessName":  "YSoft SafeQ Client",
+                          "Path":  "C:\\SafeQ6\\Spooler\\versions\\latest\\YSoft SafeQ Client\\YSoft SafeQ Client.exe"
+                      },
+                      {
+                          "Id":  24896,
+                          "ProcessName":  "YSoft SafeQ Client",
+                          "Path":  "C:\\SafeQ6\\Spooler\\versions\\latest\\YSoft SafeQ Client\\YSoft SafeQ Client.exe"
+                      },
+                      {
+                          "Id":  26124,
+                          "ProcessName":  "YSoft SafeQ Client",
+                          "Path":  "C:\\SafeQ6\\Spooler\\versions\\latest\\YSoft SafeQ Client\\YSoft SafeQ Client.exe"
+                      },
+                      {
+                          "Id":  32864,
+                          "ProcessName":  "YSoft SafeQ Client",
+                          "Path":  "C:\\SafeQ6\\Spooler\\versions\\latest\\YSoft SafeQ Client\\YSoft SafeQ Client.exe"
+                      },
+                      {
+                          "Id":  5144,
+                          "ProcessName":  "YSoft.Spooler.Host",
+                          "Path":  null
+                      }
+                  ]
+}

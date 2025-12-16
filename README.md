@@ -47,13 +47,10 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
 ###How to run the PowerShell Collector
 ```powershell
-.\collector.ps1 -OutputPath .\output\artifacts.json
+.\collector.ps1
 
 ###How to run the Orchestrator (Collector, and the Python Analysis)
-.\orchestrator.ps1 -OutputDir .\output
-
-###How to run the Python Core directly:
-python mirt.py --config config.json --out output/
+.\orchestrator.ps1
 
 ###Outputs are saved in a timestamped folder like so:
 output/run_YYYYMMDD_HHMMSS/
