@@ -49,10 +49,12 @@ def analyse(artifacts, config):
                     "sha256": sha256,
                     "severity": "medium",
                     "reasons": reasons 
+                    
 #Which represent the types of finding, the persistence type, the name of the entry,
 #where it was found, the commands used, the path, and hash to, and of the executable.
 #And also the severity level assigned, and the list of reasons why it was flagged.
                 })
 
     return findings #This input returns all suspicious persistence findings.
+
 
