@@ -45,6 +45,19 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
 ##Usage Instructions
 
+###How to set Environmental Variables Temporarily
+```powershell
+$env:ABUSEIPDB_API_KEY = "your_abuseipdb_key_here"
+$env:VT_API_KEY = "your_virustotal_key_here"
+
+#To verify:
+echo $env:VT_API_KEY
+echo $env:VT_API_KEY
+
+###How to set Environmental Variables Permanently
+[System.Environment]::SetEnvironmentVariable("ABUSEIPDB_API_KEY", "your_key_here", "User")
+[System.Environment]::SetEnvironmentVariable("VT_API_KEY", "your_key_here", "User")
+
 ###How to run the PowerShell Collector
 ```powershell
 .\collector.ps1
